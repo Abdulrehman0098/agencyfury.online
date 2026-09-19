@@ -1,0 +1,2618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FURY AGENCY | Elite Fortnite UEFN & Creator Expansion</title>
+    <meta name="description" content="Engineering high-tier Fortnite Tycoon islands, custom Verse logic, guaranteed IARC ratings, and viral cross-platform organic growth.">
+    <meta name="keywords" content="Fortnite UEFN, Verse Scripting, Fortnite Creative 2.0, Tycoon Islands, IARC Rating, YouTube Growth, TikTok Boost, Doha Qatar">
+    <meta name="author" content="FURY AGENCY">
+    <meta name="robots" content="index, follow">
+    <meta name="google-adsense-account" content="ca-pub-2525418400328104">
+
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://agencyfury.online/">
+    <meta property="og:title" content="FURY AGENCY | Elite Fortnite UEFN & Creator Expansion">
+    <meta property="og:description" content="Engineering high-performance Fortnite Tycoon islands, custom Verse logic, guaranteed IARC ratings, and viral cross-platform organic growth.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1200&h=630&q=80">
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://agencyfury.online/">
+    <meta name="twitter:title" content="FURY AGENCY | Elite Fortnite UEFN & Creator Expansion">
+    <meta name="twitter:description" content="High-performance Tycoon islands, custom Verse logic, guaranteed IARC ratings, and viral creator expansion.">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1200&h=630&q=80">
+
+    <!-- Typography: Space Grotesk (Headlines) & Inter (Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "FURY AGENCY",
+      "url": "https://agencyfury.online/",
+      "logo": "https://agencyfury.online/logo.png",
+      "description": "Elite Fortnite UEFN Island Development & Creator Growth Studio based in Doha, Qatar.",
+      "telephone": "+974 70340075",
+      "email": "bhattiabdulrehman430@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Doha",
+        "addressCountry": "QA"
+      }
+    }
+    </script>
+
+    <style>
+/* ============================================================
+   FURY AGENCY — ULTRA-PREMIUM ESPORTS & CREATOR DESIGN SYSTEM
+   ============================================================ */
+
+/* --- CSS Variables --- */
+:root {
+    --bg-primary: #07080d;
+    --bg-secondary: #0d0f17;
+    --bg-card: rgba(15, 18, 28, 0.75);
+    --bg-card-hover: rgba(22, 26, 42, 0.9);
+    --bg-glass: rgba(255, 255, 255, 0.03);
+    
+    --border-color: rgba(255, 255, 255, 0.08);
+    --border-glow: rgba(124, 58, 237, 0.35);
+    --border-cyan-glow: rgba(0, 229, 255, 0.35);
+    
+    --text-primary: #f8fafc;
+    --text-secondary: #94a3b8;
+    --text-muted: #64748b;
+    --text-highlight: #c084fc;
+    --text-cyan: #00e5ff;
+
+    --accent-primary: #7c3aed;
+    --accent-primary-hover: #6d28d9;
+    --accent-primary-glow: rgba(124, 58, 237, 0.45);
+    
+    --accent-secondary: #2563eb;
+    --accent-secondary-hover: #1d4ed8;
+    
+    --accent-cyan: #00e5ff;
+    --accent-cyan-glow: rgba(0, 229, 255, 0.3);
+    
+    --accent-tertiary: #f59e0b;
+    --accent-emerald: #10b981;
+    
+    --gradient-brand: linear-gradient(135deg, #a855f7 0%, #00e5ff 100%);
+    --gradient-brand-subtle: linear-gradient(135deg, rgba(168, 85, 247, 0.15), rgba(0, 229, 255, 0.08));
+    --gradient-button: linear-gradient(135deg, #7c3aed 0%, #4f46e5 100%);
+    --gradient-button-hover: linear-gradient(135deg, #6d28d9 0%, #4338ca 100%);
+    
+    --radius-sm: 8px;
+    --radius-md: 14px;
+    --radius-lg: 20px;
+    --radius-xl: 28px;
+    
+    --shadow-card: 0 10px 30px -10px rgba(0, 0, 0, 0.6);
+    --shadow-glow: 0 0 35px rgba(124, 58, 237, 0.25);
+    
+    --transition-fast: 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+    --transition-normal: 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    --transition-slow: 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+    
+    --font-heading: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    --max-width: 1200px;
+}
+
+/* --- Reset & Base --- */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--bg-primary);
+}
+
+body {
+    font-family: var(--font-body);
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.6;
+    overflow-x: hidden;
+    min-height: 100vh;
+    position: relative;
+}
+
+/* Ambient Cyber Glow Backgrounds */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 25%;
+    width: 650px;
+    height: 650px;
+    background: radial-gradient(circle, rgba(124, 58, 237, 0.12) 0%, transparent 70%);
+    z-index: -1;
+    pointer-events: none;
+    filter: blur(90px);
+}
+
+body::after {
+    content: '';
+    position: fixed;
+    bottom: 5%;
+    right: 15%;
+    width: 550px;
+    height: 550px;
+    background: radial-gradient(circle, rgba(0, 229, 255, 0.08) 0%, transparent 70%);
+    z-index: -1;
+    pointer-events: none;
+    filter: blur(90px);
+}
+
+h1, h2, h3, h4, .font-heading {
+    font-family: var(--font-heading);
+    letter-spacing: -0.02em;
+    color: var(--text-primary);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: color var(--transition-fast);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+input, select, textarea, button {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.glass {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+}
+
+/* --- Section Layout --- */
+.section {
+    padding: 7rem 0;
+    position: relative;
+}
+
+.section-alt {
+    background-color: rgba(13, 15, 23, 0.6);
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.section-header {
+    text-align: center;
+    max-width: 740px;
+    margin: 0 auto 4rem;
+}
+
+.section-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    padding: 0.35rem 0.9rem;
+    border-radius: 100px;
+    background: rgba(124, 58, 237, 0.12);
+    color: var(--text-highlight);
+    border: 1px solid rgba(124, 58, 237, 0.3);
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.section-title {
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    font-weight: 900;
+    line-height: 1.15;
+    margin-bottom: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: -0.01em;
+}
+
+.section-subtitle {
+    font-size: 1.05rem;
+    color: var(--text-secondary);
+    font-weight: 400;
+}
+
+.gradient-text {
+    background: var(--gradient-brand);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* --- Buttons --- */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.55rem;
+    padding: 0.75rem 1.75rem;
+    border-radius: var(--radius-sm);
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 0.85rem;
+    letter-spacing: 0.02em;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background: var(--gradient-button);
+    color: #fff;
+    box-shadow: 0 4px 20px var(--accent-primary-glow);
+    border-color: rgba(255, 255, 255, 0.15);
+}
+
+.btn-primary:hover {
+    background: var(--gradient-button-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 28px rgba(124, 58, 237, 0.6);
+}
+
+.btn-secondary {
+    background: rgba(255, 255, 255, 0.03);
+    color: var(--text-primary);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(10px);
+}
+
+.btn-secondary:hover {
+    border-color: var(--accent-cyan);
+    background: rgba(0, 229, 255, 0.08);
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 0 20px var(--accent-cyan-glow);
+}
+
+.btn-sm {
+    padding: 0.5rem 1rem;
+    font-size: 0.78rem;
+    border-radius: 6px;
+}
+
+/* ============================================================
+   STICKY NAVBAR
+   ============================================================ */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: rgba(7, 8, 13, 0.82);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-bottom: 1px solid var(--border-color);
+    padding: 0.85rem 0;
+    transition: all var(--transition-normal);
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.nav-logo-area {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex-shrink: 0;
+}
+
+.brand-emblem {
+    width: 34px;
+    height: 34px;
+    background: linear-gradient(135deg, var(--accent-primary), var(--accent-cyan));
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: var(--font-heading);
+    font-weight: 900;
+    font-size: 1.15rem;
+    box-shadow: 0 0 16px var(--accent-primary-glow);
+}
+
+.logo-text {
+    font-family: var(--font-heading);
+    font-size: 1.3rem;
+    font-weight: 900;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+
+.logo-text span {
+    color: var(--accent-primary);
+}
+
+.badge-uefn-partner {
+    font-size: 0.62rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    padding: 0.22rem 0.6rem;
+    border-radius: 100px;
+    background: rgba(124, 58, 237, 0.15);
+    color: var(--text-highlight);
+    border: 1px solid rgba(124, 58, 237, 0.35);
+    text-transform: uppercase;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-link {
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    transition: color var(--transition-fast);
+    letter-spacing: 0.02em;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.status-badge {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: var(--accent-emerald);
+    padding: 0.35rem 0.75rem;
+    border-radius: 100px;
+    background: rgba(16, 185, 129, 0.08);
+    border: 1px solid rgba(16, 185, 129, 0.2);
+}
+
+.status-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--accent-emerald);
+    box-shadow: 0 0 8px var(--accent-emerald);
+    animation: pulse-dot 2s ease-in-out infinite;
+}
+
+@keyframes pulse-dot {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.5; transform: scale(0.8); }
+}
+
+.cart-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: rgba(255, 255, 255, 0.03);
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+    padding: 0.5rem 0.95rem;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 0.8rem;
+    transition: all var(--transition-fast);
+}
+
+.cart-btn:hover {
+    border-color: var(--accent-primary);
+    background: rgba(124, 58, 237, 0.1);
+    color: #fff;
+}
+
+.cart-count {
+    background: var(--accent-primary);
+    color: #fff;
+    font-size: 0.65rem;
+    font-weight: 800;
+    padding: 0.1rem 0.45rem;
+    border-radius: 100px;
+    min-width: 18px;
+    text-align: center;
+}
+
+.nav-toggle {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+}
+
+.nav-toggle span {
+    width: 22px;
+    height: 2px;
+    background: #fff;
+    transition: all var(--transition-fast);
+}
+
+/* ============================================================
+   HERO SECTION
+   ============================================================ */
+.hero {
+    padding: 10.5rem 0 5.5rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-badge {
+    margin-bottom: 1.8rem;
+}
+
+.hero-badge span {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    padding: 0.4rem 1.1rem;
+    border-radius: 100px;
+    background: rgba(124, 58, 237, 0.12);
+    color: var(--text-highlight);
+    border: 1px solid rgba(124, 58, 237, 0.3);
+    text-transform: uppercase;
+    box-shadow: 0 0 20px rgba(124, 58, 237, 0.2);
+}
+
+.hero-title {
+    font-size: clamp(2.3rem, 5.5vw, 4.3rem);
+    font-weight: 900;
+    line-height: 1.08;
+    margin-bottom: 1.5rem;
+    max-width: 1060px;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: -0.02em;
+}
+
+.hero-subtitle {
+    font-size: clamp(1.05rem, 1.8vw, 1.22rem);
+    color: var(--text-secondary);
+    max-width: 780px;
+    margin: 0 auto 2.5rem;
+    line-height: 1.6;
+}
+
+.hero-actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+    margin-bottom: 3.5rem;
+    flex-wrap: wrap;
+}
+
+/* Platform Strip with Real Brand Glyphs */
+.platform-badge-cloud {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+    flex-wrap: wrap;
+    margin-bottom: 3.5rem;
+}
+
+.platform-badge {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    padding: 0.45rem 0.9rem;
+    border-radius: var(--radius-sm);
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    transition: all var(--transition-fast);
+}
+
+.platform-badge svg {
+    width: 18px;
+    height: 18px;
+    fill: currentColor;
+    transition: all var(--transition-fast);
+}
+
+.platform-badge:hover {
+    color: #ffffff;
+    border-color: rgba(124, 58, 237, 0.4);
+    background: rgba(124, 58, 237, 0.08);
+    transform: translateY(-2px);
+}
+
+.platform-badge.p-fortnite:hover { color: #facc15; }
+.platform-badge.p-unreal:hover { color: #00e5ff; }
+.platform-badge.p-youtube:hover { color: #ff0000; }
+.platform-badge.p-tiktok:hover { color: #00f2fe; }
+.platform-badge.p-instagram:hover { color: #e1306c; }
+.platform-badge.p-x:hover { color: #ffffff; }
+.platform-badge.p-netlify:hover { color: #00c7b7; }
+
+/* Animated Stat Bar */
+.stats-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.stat-card {
+    padding: 1.8rem 1.2rem;
+    border-radius: var(--radius-md);
+    text-align: center;
+    transition: all var(--transition-normal);
+}
+
+.stat-card:hover {
+    border-color: var(--accent-primary);
+    box-shadow: var(--shadow-glow);
+    transform: translateY(-3px);
+}
+
+.stat-num {
+    font-family: var(--font-heading);
+    font-size: clamp(2.2rem, 3.8vw, 3rem);
+    font-weight: 900;
+    color: #ffffff;
+    line-height: 1;
+    margin-bottom: 0.35rem;
+    background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.stat-num.glow-violet {
+    background: linear-gradient(135deg, #c084fc 0%, #7c3aed 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.stat-num.glow-cyan {
+    background: linear-gradient(135deg, #67e8f9 0%, #00e5ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.stat-label {
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-muted);
+    font-weight: 600;
+}
+
+/* ============================================================
+   FORTNITE & UEFN SERVICES
+   ============================================================ */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.service-card {
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    transition: transform var(--transition-normal), box-shadow var(--transition-normal), border-color var(--transition-normal);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.service-card:hover {
+    transform: translateY(-6px);
+    box-shadow: var(--shadow-glow);
+    border-color: rgba(124, 58, 237, 0.45);
+}
+
+.service-card-image-container {
+    position: relative;
+    height: 210px;
+    overflow: hidden;
+    background: #0d0f18;
+}
+
+.service-card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform var(--transition-slow);
+}
+
+.service-card:hover .service-card-image {
+    transform: scale(1.08);
+}
+
+.service-card-category {
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    font-size: 0.68rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 0.28rem 0.75rem;
+    border-radius: 100px;
+    background: rgba(7, 8, 13, 0.85);
+    backdrop-filter: blur(10px);
+    color: var(--text-highlight);
+    border: 1px solid rgba(124, 58, 237, 0.35);
+}
+
+.service-card-content {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.service-card-title {
+    font-size: 1.35rem;
+    font-weight: 800;
+    margin-bottom: 0.6rem;
+    color: #ffffff;
+}
+
+.service-card-desc {
+    color: var(--text-secondary);
+    font-size: 0.88rem;
+    line-height: 1.55;
+    margin-bottom: 1.5rem;
+}
+
+.service-features-list {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+}
+
+.service-feature-item {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 0.85rem;
+    color: #cbd5e1;
+}
+
+.service-feature-item svg {
+    flex-shrink: 0;
+    stroke: var(--accent-cyan);
+}
+
+.service-card-footer {
+    border-top: 1px solid var(--border-color);
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.service-price-area {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.service-price-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+.service-price-val {
+    font-family: var(--font-heading);
+    font-size: 1.75rem;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+.service-button-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.6rem;
+}
+
+/* ============================================================
+   PREMIUM SOCIAL GROWTH
+   ============================================================ */
+.growth-section-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+.growth-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.growth-column-title {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    color: var(--text-primary);
+}
+
+.growth-column-title.yt svg { fill: #ff0000; }
+.growth-column-title.tk svg { fill: #00f2fe; }
+
+.growth-cards-vertical {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.growth-inline-card {
+    border-radius: var(--radius-md);
+    padding: 1.25rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all var(--transition-fast);
+    position: relative;
+    overflow: hidden;
+}
+
+.growth-inline-card:hover {
+    border-color: rgba(124, 58, 237, 0.4);
+    background: rgba(255, 255, 255, 0.05);
+    transform: translateX(4px);
+}
+
+.tier-watermark {
+    position: absolute;
+    right: 15px;
+    bottom: -6px;
+    width: 60px;
+    height: 60px;
+    opacity: 0.03;
+    pointer-events: none;
+    transition: all var(--transition-fast);
+}
+
+.growth-inline-card:hover .tier-watermark {
+    opacity: 0.08;
+    transform: scale(1.1);
+}
+
+.growth-inline-info {
+    z-index: 1;
+}
+
+.growth-inline-title {
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin-bottom: 0.2rem;
+    color: #ffffff;
+}
+
+.growth-inline-features {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+}
+
+.growth-inline-price-action {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-shrink: 0;
+    z-index: 1;
+}
+
+.growth-inline-price {
+    font-family: var(--font-heading);
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: var(--text-highlight);
+}
+
+.growth-inline-buttons {
+    display: flex;
+    gap: 0.5rem;
+}
+
+/* Ultimate Upsell Authority Card */
+.ultimate-suite-card {
+    border-radius: var(--radius-lg);
+    padding: 3rem;
+    border: 2px solid var(--accent-primary);
+    background: linear-gradient(135deg, rgba(124, 58, 237, 0.12) 0%, rgba(0, 229, 255, 0.08) 100%), var(--bg-card);
+    box-shadow: 0 0 45px rgba(124, 58, 237, 0.25);
+    position: relative;
+}
+
+.ultimate-suite-card::after {
+    content: 'RECOMMENDED';
+    position: absolute;
+    top: 22px;
+    right: 25px;
+    background: linear-gradient(135deg, #f43f5e, #fb923c);
+    color: white;
+    font-size: 0.65rem;
+    font-weight: 800;
+    padding: 0.3rem 0.8rem;
+    border-radius: 100px;
+    letter-spacing: 0.08em;
+}
+
+.ultimate-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 3rem;
+    align-items: center;
+}
+
+.platform-badge-cluster {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin: 1.4rem 0;
+}
+
+.cluster-pill {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 0.35rem 0.75rem;
+    border-radius: 100px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #cbd5e1;
+}
+
+.cluster-pill svg {
+    width: 14px;
+    height: 14px;
+    fill: currentColor;
+}
+
+.ultimate-pricing-box {
+    background: rgba(7, 8, 13, 0.6);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    padding: 2.2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.ultimate-price {
+    font-family: var(--font-heading);
+    font-size: 3.2rem;
+    font-weight: 900;
+    color: #ffffff;
+    line-height: 1;
+}
+
+/* ============================================================
+   PAYMENTS & ESTIMATOR
+   ============================================================ */
+.estimator-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3.5rem;
+    align-items: start;
+}
+
+.payment-badges-panel {
+    display: flex;
+    flex-direction: column;
+}
+
+.payment-badge-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+}
+
+.payment-badge-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 1.6rem 1.2rem;
+    border-radius: var(--radius-md);
+    text-align: center;
+    transition: all var(--transition-fast);
+}
+
+.payment-badge-card:hover {
+    border-color: var(--accent-cyan);
+    background: rgba(255, 255, 255, 0.06);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5), 0 0 15px var(--accent-cyan-glow);
+}
+
+.payment-badge-icon-box {
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.payment-badge-name {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: #ffffff;
+}
+
+.payment-badge-sub {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
+/* Estimator Form Card */
+.estimator-card {
+    border-radius: var(--radius-lg);
+    padding: 2.5rem;
+}
+
+.estimator-card h3 {
+    font-size: 1.35rem;
+    font-weight: 900;
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.01em;
+}
+
+.estimator-form-group {
+    margin-bottom: 1.25rem;
+}
+
+.estimator-form-group label {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+}
+
+.estimator-select, .estimator-input {
+    width: 100%;
+    padding: 0.85rem 1rem;
+    border-radius: var(--radius-sm);
+    background: rgba(7, 8, 13, 0.8);
+    border: 1px solid var(--border-color);
+    color: #ffffff;
+    font-size: 0.9rem;
+    outline: none;
+    transition: all var(--transition-fast);
+}
+
+.estimator-select:focus, .estimator-input:focus {
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 15px var(--accent-primary-glow);
+}
+
+.estimator-total-area {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.estimator-total-label {
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+}
+
+.estimator-price-highlight {
+    font-family: var(--font-heading);
+    font-size: 2.2rem;
+    font-weight: 900;
+    color: var(--accent-cyan);
+    text-shadow: 0 0 20px var(--accent-cyan-glow);
+}
+
+/* ============================================================
+   PROJECT BOOKING PORTAL
+   ============================================================ */
+.booking-layout {
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    gap: 3.5rem;
+    align-items: start;
+}
+
+.contact-info-panel {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info-item {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    padding: 1.25rem;
+    border-radius: var(--radius-md);
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    margin-bottom: 1rem;
+}
+
+.contact-info-icon-wrapper {
+    width: 44px;
+    height: 44px;
+    background: rgba(124, 58, 237, 0.15);
+    border: 1px solid rgba(124, 58, 237, 0.3);
+    border-radius: var(--radius-sm);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--accent-primary);
+    flex-shrink: 0;
+}
+
+.contact-info-icon-wrapper svg {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+}
+
+.contact-info-label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-muted);
+    margin-bottom: 0.15rem;
+}
+
+.contact-info-val {
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 0.95rem;
+}
+
+.contact-whatsapp-link {
+    margin-top: 0.5rem;
+    width: 100%;
+    background: #25d366;
+    color: #07080d !important;
+    font-weight: 800;
+}
+
+.contact-whatsapp-link:hover {
+    background: #20ba59;
+    box-shadow: 0 0 25px rgba(37, 211, 102, 0.4);
+    transform: translateY(-2px);
+}
+
+.booking-form-card {
+    border-radius: var(--radius-lg);
+    padding: 2.5rem;
+}
+
+.booking-form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.booking-form-card .form-group {
+    margin-bottom: 1.2rem;
+}
+
+.booking-form-card label {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-secondary);
+    margin-bottom: 0.45rem;
+}
+
+.booking-form-card input, .booking-form-card select, .booking-form-card textarea {
+    width: 100%;
+    padding: 0.85rem 1rem;
+    border-radius: var(--radius-sm);
+    background: rgba(7, 8, 13, 0.8);
+    border: 1px solid var(--border-color);
+    color: #ffffff;
+    font-size: 0.9rem;
+    outline: none;
+    transition: all var(--transition-fast);
+}
+
+.booking-form-card input:focus, .booking-form-card select:focus, .booking-form-card textarea:focus {
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 15px var(--accent-primary-glow);
+}
+
+/* ============================================================
+   CART DRAWER & OVERLAY
+   ============================================================ */
+.cart-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(8px);
+    z-index: 1500;
+    opacity: 0;
+    visibility: hidden;
+    transition: all var(--transition-normal);
+}
+
+.cart-overlay.open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.cart-drawer {
+    position: fixed;
+    top: 0;
+    right: -480px;
+    width: 100%;
+    max-width: 440px;
+    height: 100vh;
+    background: var(--bg-secondary);
+    border-left: 1px solid var(--border-color);
+    z-index: 1600;
+    display: flex;
+    flex-direction: column;
+    transition: right 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    box-shadow: -20px 0 60px rgba(0, 0, 0, 0.85);
+}
+
+.cart-drawer.open {
+    right: 0;
+}
+
+.cart-header {
+    padding: 1.5rem;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart-header h3 {
+    font-size: 1.25rem;
+    font-weight: 900;
+}
+
+.cart-close-btn {
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: color var(--transition-fast);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-close-btn:hover {
+    color: #ffffff;
+}
+
+.cart-items-wrapper {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+}
+
+.cart-empty-msg {
+    text-align: center;
+    color: var(--text-muted);
+    margin-top: 3.5rem;
+    font-size: 0.95rem;
+}
+
+.cart-item {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart-item-name {
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: #ffffff;
+    margin-bottom: 0.15rem;
+}
+
+.cart-item-price {
+    font-family: var(--font-heading);
+    font-size: 0.85rem;
+    color: var(--text-highlight);
+    font-weight: 700;
+}
+
+.cart-item-remove {
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    cursor: pointer;
+    font-size: 0.78rem;
+    transition: color var(--transition-fast);
+}
+
+.cart-item-remove:hover {
+    color: #f43f5e;
+}
+
+.cart-checkout-panel {
+    padding: 1.5rem;
+    border-top: 1px solid var(--border-color);
+    background: rgba(7, 8, 13, 0.6);
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.cart-form-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.cart-form-section h4 {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-muted);
+}
+
+.cart-input {
+    width: 100%;
+    padding: 0.75rem 0.9rem;
+    border-radius: var(--radius-sm);
+    background: rgba(7, 8, 13, 0.9);
+    border: 1px solid var(--border-color);
+    color: #ffffff;
+    font-size: 0.85rem;
+    outline: none;
+}
+
+.cart-input:focus {
+    border-color: var(--accent-primary);
+}
+
+.cart-total-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+
+.cart-total-value {
+    font-family: var(--font-heading);
+    font-size: 1.6rem;
+    color: var(--accent-cyan);
+}
+
+.checkout-actions-vertical {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.checkout-btn {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 0.82rem;
+    font-weight: 800;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    transition: all var(--transition-fast);
+}
+
+.checkout-paypal {
+    background: #0070ba;
+    color: #fff;
+}
+.checkout-paypal:hover {
+    background: #005ea6;
+    transform: translateY(-2px);
+}
+
+.checkout-payoneer {
+    background: #ff4800;
+    color: #fff;
+}
+.checkout-payoneer:hover {
+    background: #e03e00;
+    transform: translateY(-2px);
+}
+
+.checkout-whatsapp {
+    background: #25d366;
+    color: #07080d;
+}
+.checkout-whatsapp:hover {
+    background: #20ba59;
+    transform: translateY(-2px);
+}
+
+/* ============================================================
+   MOBILE DRAWER & TOAST
+   ============================================================ */
+.mobile-drawer {
+    position: fixed;
+    top: 70px;
+    right: -100%;
+    width: 100%;
+    height: calc(100vh - 70px);
+    background: rgba(7, 8, 13, 0.98);
+    backdrop-filter: blur(20px);
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    transition: right 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.mobile-drawer.open {
+    right: 0;
+}
+
+.drawer-link {
+    font-family: var(--font-heading);
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.toast {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background: var(--bg-secondary);
+    border: 1px solid var(--accent-primary);
+    color: #ffffff;
+    padding: 0.9rem 1.4rem;
+    border-radius: var(--radius-sm);
+    font-size: 0.88rem;
+    font-weight: 600;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.7), 0 0 20px var(--accent-primary-glow);
+    transform: translateY(100px);
+    opacity: 0;
+    visibility: hidden;
+    transition: all var(--transition-normal);
+    z-index: 3000;
+}
+
+.toast.show {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+}
+
+.toast-error {
+    border-color: #f43f5e;
+}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+.footer {
+    padding: 5rem 0 2.5rem;
+    border-top: 1px solid var(--border-color);
+    background: var(--bg-primary);
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 4rem;
+    margin-bottom: 3.5rem;
+}
+
+.footer-brand p {
+    color: var(--text-muted);
+    font-size: 0.88rem;
+    margin-top: 1rem;
+    max-width: 380px;
+    line-height: 1.6;
+}
+
+.footer-social-strip {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin-top: 1.2rem;
+}
+
+.footer-social-btn {
+    width: 36px;
+    height: 36px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-secondary);
+    transition: all var(--transition-fast);
+}
+
+.footer-social-btn svg {
+    width: 17px;
+    height: 17px;
+    fill: currentColor;
+}
+
+.footer-social-btn:hover {
+    color: #ffffff;
+    border-color: var(--accent-primary);
+    background: rgba(124, 58, 237, 0.15);
+    transform: translateY(-2px);
+}
+
+.footer-info p {
+    color: var(--text-secondary);
+    font-size: 0.88rem;
+    margin-bottom: 0.6rem;
+}
+
+.footer-info a {
+    color: var(--accent-cyan);
+}
+
+.footer-bottom {
+    border-top: 1px solid var(--border-color);
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+/* ============================================================
+   SCROLL REVEAL ANIMATIONS
+   ============================================================ */
+.reveal {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media (max-width: 992px) {
+    .services-grid { grid-template-columns: 1fr; }
+    .growth-section-grid { grid-template-columns: 1fr; }
+    .ultimate-grid { grid-template-columns: 1fr; gap: 2rem; }
+    .estimator-layout { grid-template-columns: 1fr; }
+    .booking-layout { grid-template-columns: 1fr; }
+    .footer-content { grid-template-columns: 1fr; gap: 2.5rem; }
+    .stats-grid { grid-template-columns: 1fr; }
+
+    .nav-links { display: none; }
+    .nav-toggle { display: flex; }
+    .status-badge { display: none; }
+}
+
+@media (max-width: 600px) {
+    .booking-form-grid { grid-template-columns: 1fr; }
+    .service-button-row { grid-template-columns: 1fr; }
+    .payment-badge-grid { grid-template-columns: 1fr; }
+    .hero-actions { flex-direction: column; width: 100%; }
+    .hero-actions .btn { width: 100%; }
+    .cart-drawer { width: 100%; }
+}
+    </style>
+</head>
+<body>
+
+    <!-- ============================================================
+         STICKY NAVIGATION
+         ============================================================ -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <div class="nav-logo-area">
+                <a href="#home" style="display: flex; align-items: center; gap: 0.75rem;">
+                    <div class="brand-emblem">F</div>
+                    <span class="logo-text">FURY<span>AGENCY</span></span>
+                </a>
+                <span class="badge-uefn-partner">UEFN Partner</span>
+            </div>
+
+            <nav class="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#growth" class="nav-link">Growth Suite</a>
+                <a href="#estimator" class="nav-link">Estimator</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <div class="status-badge">
+                    <span class="status-dot"></span>
+                    <span>Accepting Orders</span>
+                </div>
+
+                <button class="cart-btn" onclick="toggleCart()">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+                    <span>Cart</span>
+                    <span class="cart-count" id="cart-count-badge" style="display: none;">0</span>
+                </button>
+
+                <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-drawer" id="mobile-drawer">
+        <a href="#home" class="drawer-link">Home</a>
+        <a href="#services" class="drawer-link">Services</a>
+        <a href="#growth" class="drawer-link">Growth Suite</a>
+        <a href="#estimator" class="drawer-link">Estimator</a>
+        <a href="#contact" class="drawer-link">Contact</a>
+    </div>
+
+    <!-- ============================================================
+         CART DRAWER & OVERLAY
+         ============================================================ -->
+    <div class="cart-overlay" id="cart-overlay" onclick="toggleCart()"></div>
+    <div class="cart-drawer" id="cart-drawer">
+        <div class="cart-header">
+            <h3>YOUR ORDER</h3>
+            <button class="cart-close-btn" onclick="toggleCart()">&times;</button>
+        </div>
+        <div class="cart-items-wrapper" id="cart-items">
+            <div class="cart-empty-msg">Your cart is empty.</div>
+        </div>
+        <div class="cart-checkout-panel">
+            <div class="cart-form-section">
+                <h4>Billing &amp; Delivery Contact</h4>
+                <input type="text" id="checkout-name" class="cart-input" placeholder="Full Name" required>
+                <input type="email" id="checkout-email" class="cart-input" placeholder="Email Address" required>
+                <input type="tel" id="checkout-phone" class="cart-input" placeholder="WhatsApp Number (optional)">
+            </div>
+            <div class="cart-total-row">
+                <span>Total:</span>
+                <span class="cart-total-value" id="cart-total">$0.00</span>
+            </div>
+            <div class="checkout-actions-vertical">
+                <button class="checkout-btn checkout-paypal" onclick="payWithPayPal()">
+                    <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M7.076 21.337H2.47a.641.641 0 0 1-.633-.74L4.944.901C5.026.382 5.474 0 5.998 0h7.46c2.57 0 4.578.543 5.69 1.81 1.01 1.15 1.304 2.42 1.012 4.287-.023.143-.047.288-.077.437-.983 5.05-4.349 6.797-8.647 6.797h-2.19c-.524 0-.968.382-1.05.9l-1.12 7.106zm14.146-14.42c-.033-.214-.075-.42-.128-.621-.497-1.89-1.93-2.905-4.398-3.085-1.066-.078-2.278-.078-3.666-.078H8.847L7.26 13.255h3.042c3.55 0 6.326-1.442 7.137-5.617.318-1.636.195-2.784-.217-3.721z"/></svg>
+                    Pay with PayPal
+                </button>
+                <button class="checkout-btn checkout-payoneer" onclick="payWithPayoneer()">
+                    <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 4.8c3.976 0 7.2 3.224 7.2 7.2s-3.224 7.2-7.2 7.2-7.2-3.224-7.2-7.2 3.224-7.2 7.2-7.2z"/></svg>
+                    Pay with Payoneer
+                </button>
+                <button class="checkout-btn checkout-whatsapp" onclick="payViaWhatsApp()">
+                    <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 0C5.405 0 .027 5.378.027 12.004c0 2.116.55 4.182 1.597 6.002L.004 24l6.168-1.618a11.96 11.96 0 0 0 5.859 1.528h.005c6.626 0 12.004-5.378 12.004-12.004C24.04 5.378 18.657 0 12.031 0zm-.005 21.94a9.92 9.92 0 0 1-5.06-1.39l-.363-.215-3.762.987 1.004-3.668-.236-.376a9.93 9.93 0 0 1-1.523-5.274c0-5.485 4.464-9.948 9.95-9.948 2.658 0 5.157 1.036 7.034 2.915a9.89 9.89 0 0 1 2.91 7.034c0 5.486-4.463 9.95-9.95 9.95z"/></svg>
+                    Pay via WhatsApp
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast"></div>
+
+    <!-- ============================================================
+         HERO SECTION
+         ============================================================ -->
+    <header class="hero" id="home">
+        <div class="container">
+            <div class="hero-badge reveal">
+                <span>⚡ Elite Fortnite UEFN Studio &amp; Growth Engine</span>
+            </div>
+            
+            <h1 class="hero-title reveal">
+                ELITE FORTNITE UEFN DEVELOPMENT <br>
+                <span class="gradient-text">&amp; VIRAL SOCIAL EXPANSION</span>
+            </h1>
+            
+            <p class="hero-subtitle reveal">
+                Engineering high-performance Fortnite Tycoon islands, custom Verse logic scripting, guaranteed compliance IARC age ratings, and premium organic social growth for creators worldwide.
+            </p>
+            
+            <div class="hero-actions reveal">
+                <a href="#services" class="btn btn-primary">Explore Services</a>
+                <a href="#estimator" class="btn btn-secondary">Get Instant Quote</a>
+            </div>
+
+            <!-- Platform Icons Strip -->
+            <div class="platform-badge-cloud reveal">
+                <div class="platform-badge p-fortnite" title="Fortnite Creative">
+                    <svg viewBox="0 0 24 24"><path d="M12 0L1.5 6v12L12 24l10.5-6V6L12 0zm0 2.8l7.5 4.3v8.6L12 20l-7.5-4.3V7.1L12 2.8z"/></svg>
+                    <span>Fortnite</span>
+                </div>
+                <div class="platform-badge p-unreal" title="Unreal Engine">
+                    <svg viewBox="0 0 24 24"><path d="M12 0C5.372 0 0 5.372 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.443-.16-.906-.16-1.382 0-2.348 1.4-4.35 3.39-5.174-.75-.68-1.23-1.66-1.23-2.76 0-2.07 1.68-3.75 3.75-3.75s3.75 1.68 3.75 3.75c0 1.1-.48 2.08-1.23 2.76 1.99.824 3.39 2.826 3.39 5.174 0 .476-.055.939-.16 1.382C20.837 21.426 24 17.084 24 12c0-6.628-5.372-12-12-12z"/></svg>
+                    <span>Unreal Engine</span>
+                </div>
+                <div class="platform-badge p-tiktok" title="TikTok">
+                    <svg viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.67 4.28 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.97V16.3c0 1.63-.52 3.22-1.5 4.52-1.42 1.89-3.66 3.04-6.07 3.16-1.92.1-3.83-.55-5.32-1.78C.34 20.89-.36 19.06-.17 17.15c.19-1.9 1.25-3.61 2.87-4.64 1.63-1.03 3.63-1.33 5.48-.82v4.22c-.67-.28-1.43-.31-2.12-.1-.7.22-1.28.72-1.6 1.38-.33.67-.32 1.45.02 2.11.34.66.95 1.13 1.68 1.28.73.15 1.5-.04 2.09-.5.58-.46.92-1.16.92-1.9V.02z"/></svg>
+                    <span>TikTok</span>
+                </div>
+                <div class="platform-badge p-youtube" title="YouTube">
+                    <svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                    <span>YouTube</span>
+                </div>
+                <div class="platform-badge p-instagram" title="Instagram">
+                    <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 2.529.069 3.793 0 1.264-.012 2.528-.069 3.793-.148 3.228-1.667 4.771-4.919 4.919-1.266.058-2.529.069-3.793.069-1.264 0-2.528-.012-3.793-.069-3.228-.148-4.771-1.667-4.919-4.919C2.175 15.747 2.163 14.484 2.163 12.22c0-1.264.012-2.528.069-3.793.148-3.228 1.667-4.771 4.919-4.919 1.265-.058 2.529-.069 3.793-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                    <span>Instagram</span>
+                </div>
+                <div class="platform-badge p-x" title="X (Twitter)">
+                    <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231 5.434-6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    <span>X</span>
+                </div>
+                <div class="platform-badge p-netlify" title="Netlify">
+                    <svg viewBox="0 0 24 24"><path d="M12.012 3.636l2.87 2.87-2.87 2.87-2.87-2.87 2.87-2.87zm-7.61 7.61l2.87-2.87 2.87 2.87-2.87 2.87-2.87-2.87zm7.61 7.61l-2.87-2.87 2.87-2.87 2.87 2.87-2.87 2.87zm7.61-7.61l-2.87 2.87-2.87-2.87 2.87-2.87 2.87 2.87z"/></svg>
+                    <span>Netlify</span>
+                </div>
+            </div>
+
+            <!-- Stats Grid -->
+            <div class="stats-container reveal">
+                <div class="stats-grid">
+                    <div class="stat-card glass">
+                        <div class="stat-num glow-violet" id="stat-maps">8+</div>
+                        <div class="stat-label">UEFN Maps Built</div>
+                    </div>
+                    <div class="stat-card glass">
+                        <div class="stat-num glow-cyan" id="stat-plays">2M+</div>
+                        <div class="stat-label">Total Plays</div>
+                    </div>
+                    <div class="stat-card glass">
+                        <div class="stat-num">24/7</div>
+                        <div class="stat-label">Rapid Delivery</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ============================================================
+         FORTNITE & UEFN SERVICES
+         ============================================================ -->
+    <section id="services" class="section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-badge">Fortnite &amp; Creative 2.0</span>
+                <h2 class="section-title">FORTNITE &amp; UEFN SERVICES</h2>
+                <p class="section-subtitle">Fully compliant Fortnite islands with advanced custom Verse scripting.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Custom Map Modes Card -->
+                <div class="service-card glass reveal">
+                    <div class="service-card-image-container">
+                        <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=800&q=80" alt="Custom Map Modes" class="service-card-image">
+                        <span class="service-card-category">UEFN</span>
+                    </div>
+                    <div class="service-card-content">
+                        <div>
+                            <h3 class="service-card-title">CUSTOM MAP MODES</h3>
+                            <p class="service-card-desc">Advanced custom mechanics, high-concept maps (Tycoon, Box PvP, Zone Wars) coded fully using Verse programming.</p>
+                            <ul class="service-features-list">
+                                <li class="service-feature-item">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                                    Custom Terrain Layout
+                                </li>
+                                <li class="service-feature-item">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                                    Performance Optimization
+                                </li>
+                                <li class="service-feature-item">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                                    Advanced Verse Logic
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="service-card-footer">
+                            <div class="service-price-area">
+                                <span class="service-price-label">Price starts at:</span>
+                                <span class="service-price-val">$29.99</span>
+                            </div>
+                            <div class="service-button-row">
+                                <button class="btn btn-secondary btn-sm" onclick="addToCart('custom-map-modes')">Add to Cart</button>
+                                <button class="btn btn-primary btn-sm" onclick="handlePayNow('custom-map-modes')">Pay Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Complete IARC Setup Card -->
+                <div class="service-card glass reveal">
+                    <div class="service-card-image-container">
+                        <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=800&q=80" alt="IARC Setup" class="service-card-image">
+                        <span class="service-card-category">Compliance</span>
+                    </div>
+                    <div class="service-card-content">
+                        <div>
+                            <h3 class="service-card-title">COMPLETE IARC SETUP</h3>
+                            <p class="service-card-desc">Flawless IARC submission matching Epic Games age-rating requirements. Guaranteed publishing success without rejections.</p>
+                            <ul class="service-features-list">
+                                <li class="service-feature-item">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                                    Submission Compliance
+                                </li>
+                                <li class="service-feature-item">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                                    Questionnaire Management
+                                </li>
+                                <li class="service-feature-item">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                                    24h Rapid Processing
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="service-card-footer">
+                            <div class="service-price-area">
+                                <span class="service-price-label">Flat Rate:</span>
+                                <span class="service-price-val">$14.99</span>
+                            </div>
+                            <div class="service-button-row">
+                                <button class="btn btn-secondary btn-sm" onclick="addToCart('complete-iarc-setup')">Add to Cart</button>
+                                <button class="btn btn-primary btn-sm" onclick="handlePayNow('complete-iarc-setup')">Pay Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Custom Thumbnails Card -->
+                <div class="service-card glass reveal">
+                    <div class="service-card-image-container">
+                        <img src="https://images.unsplash.com/photo-1538481199705-c710c4e965fc?auto=format&fit=crop&w=800&q=80" alt="Custom Thumbnails" class="service-card-image">
+                        <span class="service-card-category">Design</span>
+                    </div>
+                    <div class="service-card-content">
+                        <div>
+                            <h3 class="service-card-title">CUSTOM THUMBNAILS</h3>
+                            <p class="service-card-desc">Vibrant, high-click-through-rate Fortnite renders. Created inside professional Blender environments with customized lighting.</p>
+                            <ul class="service-features-list">
+                                <li class="service-feature-item">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                                    3D Character Renders
+                                </li>
+                                <li class="service-feature-item">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                                    Custom Studio Lighting
+                                </li>
+                                <li class="service-feature-item">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                                    High CTR (YouTube/TikTok)
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="service-card-footer">
+                            <div class="service-price-area">
+                                <span class="service-price-label">Price starts at:</span>
+                                <span class="service-price-val">$19.99</span>
+                            </div>
+                            <div class="service-button-row">
+                                <button class="btn btn-secondary btn-sm" onclick="addToCart('custom-thumbnails')">Add to Cart</button>
+                                <button class="btn btn-primary btn-sm" onclick="handlePayNow('custom-thumbnails')">Pay Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         PREMIUM SOCIAL GROWTH
+         ============================================================ -->
+    <section id="growth" class="section section-alt">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-badge">Viral Authority</span>
+                <h2 class="section-title">PREMIUM SOCIAL GROWTH</h2>
+                <p class="section-subtitle">Real organic audience growth to fuel your creator network.</p>
+            </div>
+
+            <div class="growth-section-grid">
+                <!-- YouTube Suite Column -->
+                <div class="growth-column reveal">
+                    <h3 class="growth-column-title yt">
+                        <svg width="24" height="24" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                        YouTube Suite
+                    </h3>
+                    <div class="growth-cards-vertical">
+                        <!-- YouTube Subs -->
+                        <div class="growth-inline-card glass">
+                            <svg class="tier-watermark" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                            <div class="growth-inline-info">
+                                <h4 class="growth-inline-title">1,000 Organic Subs</h4>
+                                <p class="growth-inline-features">Real organic channels. Safe for channel monetization program standards.</p>
+                            </div>
+                            <div class="growth-inline-price-action">
+                                <span class="growth-inline-price">$49.99</span>
+                                <div class="growth-inline-buttons">
+                                    <button class="btn btn-secondary btn-sm" onclick="addToCart('yt-subs')">Add</button>
+                                    <button class="btn btn-primary btn-sm" onclick="handlePayNow('yt-subs')">Buy</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- YouTube Watch Hours -->
+                        <div class="growth-inline-card glass">
+                            <svg class="tier-watermark" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                            <div class="growth-inline-info">
+                                <h4 class="growth-inline-title">4,000 Watch Hours</h4>
+                                <p class="growth-inline-features">Complete, high-retention organic watch time from unique global viewers.</p>
+                            </div>
+                            <div class="growth-inline-price-action">
+                                <span class="growth-inline-price">$99.99</span>
+                                <div class="growth-inline-buttons">
+                                    <button class="btn btn-secondary btn-sm" onclick="addToCart('yt-hours')">Add</button>
+                                    <button class="btn btn-primary btn-sm" onclick="handlePayNow('yt-hours')">Buy</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- YouTube Monetization Views -->
+                        <div class="growth-inline-card glass">
+                            <svg class="tier-watermark" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                            <div class="growth-inline-info">
+                                <h4 class="growth-inline-title">10,000 Monetization Views</h4>
+                                <p class="growth-inline-features">High-retention video views to launch recommendations algorithms.</p>
+                            </div>
+                            <div class="growth-inline-price-action">
+                                <span class="growth-inline-price">$29.99</span>
+                                <div class="growth-inline-buttons">
+                                    <button class="btn btn-secondary btn-sm" onclick="addToCart('yt-views')">Add</button>
+                                    <button class="btn btn-primary btn-sm" onclick="handlePayNow('yt-views')">Buy</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TikTok Suite Column -->
+                <div class="growth-column reveal">
+                    <h3 class="growth-column-title tk">
+                        <svg width="24" height="24" viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.67 4.28 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.97V16.3c0 1.63-.52 3.22-1.5 4.52-1.42 1.89-3.66 3.04-6.07 3.16-1.92.1-3.83-.55-5.32-1.78C.34 20.89-.36 19.06-.17 17.15c.19-1.9 1.25-3.61 2.87-4.64 1.63-1.03 3.63-1.33 5.48-.82v4.22c-.67-.28-1.43-.31-2.12-.1-.7.22-1.28.72-1.6 1.38-.33.67-.32 1.45.02 2.11.34.66.95 1.13 1.68 1.28.73.15 1.5-.04 2.09-.5.58-.46.92-1.16.92-1.9V.02z"/></svg>
+                        TikTok Suite
+                    </h3>
+                    <div class="growth-cards-vertical">
+                        <!-- TikTok Followers -->
+                        <div class="growth-inline-card glass">
+                            <svg class="tier-watermark" viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.67 4.28 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.97V16.3c0 1.63-.52 3.22-1.5 4.52-1.42 1.89-3.66 3.04-6.07 3.16-1.92.1-3.83-.55-5.32-1.78C.34 20.89-.36 19.06-.17 17.15c.19-1.9 1.25-3.61 2.87-4.64 1.63-1.03 3.63-1.33 5.48-.82v4.22c-.67-.28-1.43-.31-2.12-.1-.7.22-1.28.72-1.6 1.38-.33.67-.32 1.45.02 2.11.34.66.95 1.13 1.68 1.28.73.15 1.5-.04 2.09-.5.58-.46.92-1.16.92-1.9V.02z"/></svg>
+                            <div class="growth-inline-info">
+                                <h4 class="growth-inline-title">5,000 Targeted Followers</h4>
+                                <p class="growth-inline-features">Real niche-targeted TikTok followers. Excellent for unlocking TikTok LIVE.</p>
+                            </div>
+                            <div class="growth-inline-price-action">
+                                <span class="growth-inline-price">$49.99</span>
+                                <div class="growth-inline-buttons">
+                                    <button class="btn btn-secondary btn-sm" onclick="addToCart('tk-followers')">Add</button>
+                                    <button class="btn btn-primary btn-sm" onclick="handlePayNow('tk-followers')">Buy</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- TikTok Likes -->
+                        <div class="growth-inline-card glass">
+                            <svg class="tier-watermark" viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.67 4.28 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.97V16.3c0 1.63-.52 3.22-1.5 4.52-1.42 1.89-3.66 3.04-6.07 3.16-1.92.1-3.83-.55-5.32-1.78C.34 20.89-.36 19.06-.17 17.15c.19-1.9 1.25-3.61 2.87-4.64 1.63-1.03 3.63-1.33 5.48-.82v4.22c-.67-.28-1.43-.31-2.12-.1-.7.22-1.28.72-1.6 1.38-.33.67-.32 1.45.02 2.11.34.66.95 1.13 1.68 1.28.73.15 1.5-.04 2.09-.5.58-.46.92-1.16.92-1.9V.02z"/></svg>
+                            <div class="growth-inline-info">
+                                <h4 class="growth-inline-title">25,000 Video Likes</h4>
+                                <p class="growth-inline-features">Increases interaction rates, helping push videos directly to FYP pages.</p>
+                            </div>
+                            <div class="growth-inline-price-action">
+                                <span class="growth-inline-price">$24.99</span>
+                                <div class="growth-inline-buttons">
+                                    <button class="btn btn-secondary btn-sm" onclick="addToCart('tk-likes')">Add</button>
+                                    <button class="btn btn-primary btn-sm" onclick="handlePayNow('tk-likes')">Buy</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- TikTok Views -->
+                        <div class="growth-inline-card glass">
+                            <svg class="tier-watermark" viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.67 4.28 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.97V16.3c0 1.63-.52 3.22-1.5 4.52-1.42 1.89-3.66 3.04-6.07 3.16-1.92.1-3.83-.55-5.32-1.78C.34 20.89-.36 19.06-.17 17.15c.19-1.9 1.25-3.61 2.87-4.64 1.63-1.03 3.63-1.33 5.48-.82v4.22c-.67-.28-1.43-.31-2.12-.1-.7.22-1.28.72-1.6 1.38-.33.67-.32 1.45.02 2.11.34.66.95 1.13 1.68 1.28.73.15 1.5-.04 2.09-.5.58-.46.92-1.16.92-1.9V.02z"/></svg>
+                            <div class="growth-inline-info">
+                                <h4 class="growth-inline-title">50,000 Viral Views</h4>
+                                <p class="growth-inline-features">High interaction signals. Fast delivery to maximize reach immediately.</p>
+                            </div>
+                            <div class="growth-inline-price-action">
+                                <span class="growth-inline-price">$29.99</span>
+                                <div class="growth-inline-buttons">
+                                    <button class="btn btn-secondary btn-sm" onclick="addToCart('tk-views')">Add</button>
+                                    <button class="btn btn-primary btn-sm" onclick="handlePayNow('tk-views')">Buy</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ultimate Cross-Platform Upsell Card -->
+            <div class="ultimate-suite-card glass reveal">
+                <div class="ultimate-grid">
+                    <div>
+                        <span class="section-badge" style="background: rgba(244, 63, 94, 0.15); border-color: rgba(244, 63, 94, 0.35); color: #fda4af;">Omnichannel Domination</span>
+                        <h3 style="font-size: 1.85rem; font-weight: 900; margin: 0.8rem 0; color: #ffffff;">💥 ULTIMATE CROSS-PLATFORM SUITE</h3>
+                        <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1.5rem;">
+                            Establish absolute authority. Combined high-impact expansion for YouTube, TikTok, Instagram, and X. Propel your gaming brand into global scale.
+                        </p>
+
+                        <!-- Platform Icon Cluster -->
+                        <div class="platform-badge-cluster">
+                            <div class="cluster-pill">
+                                <svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                                <span>YouTube</span>
+                            </div>
+                            <div class="cluster-pill">
+                                <svg viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.67 4.28 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.97V16.3c0 1.63-.52 3.22-1.5 4.52-1.42 1.89-3.66 3.04-6.07 3.16-1.92.1-3.83-.55-5.32-1.78C.34 20.89-.36 19.06-.17 17.15c.19-1.9 1.25-3.61 2.87-4.64 1.63-1.03 3.63-1.33 5.48-.82v4.22c-.67-.28-1.43-.31-2.12-.1-.7.22-1.28.72-1.6 1.38-.33.67-.32 1.45.02 2.11.34.66.95 1.13 1.68 1.28.73.15 1.5-.04 2.09-.5.58-.46.92-1.16.92-1.9V.02z"/></svg>
+                                <span>TikTok</span>
+                            </div>
+                            <div class="cluster-pill">
+                                <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 2.529.069 3.793 0 1.264-.012 2.528-.069 3.793-.148 3.228-1.667 4.771-4.919 4.919-1.266.058-2.529.069-3.793.069-1.264 0-2.528-.012-3.793-.069-3.228-.148-4.771-1.667-4.919-4.919C2.175 15.747 2.163 14.484 2.163 12.22c0-1.264.012-2.528.069-3.793.148-3.228 1.667-4.771 4.919-4.919 1.265-.058 2.529-.069 3.793-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                                <span>Instagram</span>
+                            </div>
+                            <div class="cluster-pill">
+                                <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231 5.434-6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                                <span>X</span>
+                            </div>
+                        </div>
+
+                        <ul class="service-features-list" style="margin-bottom: 0;">
+                            <li class="service-feature-item">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                                Complete YouTube &amp; TikTok Acceleration Suites
+                            </li>
+                            <li class="service-feature-item">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                                High-Priority Queue &amp; Dedicated Campaign Setup
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="ultimate-pricing-box">
+                        <span class="service-price-label">All-Inclusive Bundle</span>
+                        <div class="ultimate-price">$149.99</div>
+                        <div style="display: flex; flex-direction: column; gap: 0.6rem;">
+                            <button class="btn btn-primary" onclick="handlePayNow('cross-platform')">Buy Package</button>
+                            <button class="btn btn-secondary btn-sm" onclick="addToCart('cross-platform')">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         PAYMENTS & ESTIMATOR
+         ============================================================ -->
+    <section id="estimator" class="section">
+        <div class="container">
+            <div class="estimator-layout">
+                <!-- Left Column: Payment Gateways -->
+                <div class="payment-badges-panel reveal">
+                    <span class="section-badge" style="align-self: flex-start;">Trusted Commerce</span>
+                    <h2 class="section-title" style="text-align: left; margin-bottom: 1.2rem;">SECURE GLOBAL PAYMENTS</h2>
+                    <p class="section-subtitle" style="text-align: left; margin-bottom: 2rem; max-width: 100%;">
+                        We support secure and direct multi-currency gateways for seamless global collaboration. Process payments instantly via encrypted services.
+                    </p>
+                    <div class="payment-badge-grid">
+                        <div class="payment-badge-card glass">
+                            <div class="payment-badge-icon-box">
+                                <svg width="34" height="34" viewBox="0 0 24 24" fill="#0070ba"><path d="M7.076 21.337H2.47a.641.641 0 0 1-.633-.74L4.944.901C5.026.382 5.474 0 5.998 0h7.46c2.57 0 4.578.543 5.69 1.81 1.01 1.15 1.304 2.42 1.012 4.287-.023.143-.047.288-.077.437-.983 5.05-4.349 6.797-8.647 6.797h-2.19c-.524 0-.968.382-1.05.9l-1.12 7.106zm14.146-14.42c-.033-.214-.075-.42-.128-.621-.497-1.89-1.93-2.905-4.398-3.085-1.066-.078-2.278-.078-3.666-.078H8.847L7.26 13.255h3.042c3.55 0 6.326-1.442 7.137-5.617.318-1.636.195-2.784-.217-3.721z"/></svg>
+                            </div>
+                            <div class="payment-badge-name">PayPal Direct</div>
+                            <div class="payment-badge-sub">Encrypted instant checkout</div>
+                        </div>
+
+                        <div class="payment-badge-card glass">
+                            <div class="payment-badge-icon-box">
+                                <svg width="34" height="34" viewBox="0 0 24 24" fill="#ff4800"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 4.8c3.976 0 7.2 3.224 7.2 7.2s-3.224 7.2-7.2 7.2-7.2-3.224-7.2-7.2 3.224-7.2 7.2-7.2z"/></svg>
+                            </div>
+                            <div class="payment-badge-name">Payoneer Transfer</div>
+                            <div class="payment-badge-sub">Global wire payment request</div>
+                        </div>
+
+                        <div class="payment-badge-card glass">
+                            <div class="payment-badge-icon-box" style="gap: 6px;">
+                                <svg width="32" height="22" viewBox="0 0 24 24" fill="#1434cb"><path d="M9.06 17.58H6.54L8.1 4.42h2.52l-1.56 13.16zm7.26-12.82c-.52-.2-1.32-.42-2.32-.42-2.56 0-4.36 1.36-4.38 3.32-.02 1.44 1.28 2.24 2.26 2.72 1 .5 1.34.82 1.34 1.26 0 .68-.82.98-1.58.98-1.06 0-1.62-.16-2.48-.54l-.34-.16-.38 2.34c.64.3 1.8.56 3.02.58 2.84 0 4.68-1.4 4.7-3.56.02-1.18-.7-2.08-2.24-2.82-.94-.48-1.52-.8-1.52-1.28 0-.44.48-.9 1.54-.9.88 0 1.52.18 2.02.4l.24.12.38-2.34zm7.68.24h-1.96c-.6 0-1.06.18-1.32.82l-3.76 9.02h2.64l.52-1.46h3.24l.3 1.46h2.34l-2-9.84zm-3.18 6.38l1.34-3.66.76 3.66h-2.1zM5.58 4.42L3.12 13.4c-.16.6-.64.98-1.2.98H.06L0 14.7l4.02 9.72h2.68L10.74 4.42H5.58z"/></svg>
+                                <svg width="32" height="22" viewBox="0 0 24 24" fill="#eb001b"><path d="M14.6 12a7.18 7.18 0 0 1 2.75-5.65 7.2 7.2 0 1 0 0 11.3A7.18 7.18 0 0 1 14.6 12z"/><path fill="#f79e1b" d="M24 12a7.2 7.2 0 0 1-11.4 5.82 7.2 7.2 0 0 0 0-11.64A7.2 7.2 0 0 1 24 12z"/><path fill="#ff5f00" d="M14.6 12a7.18 7.18 0 0 1-1.85 4.82 7.2 7.2 0 0 1 0-9.64A7.18 7.18 0 0 1 14.6 12z"/></svg>
+                            </div>
+                            <div class="payment-badge-name">Cards (Visa/MC)</div>
+                            <div class="payment-badge-sub">3D-Secure card gateway</div>
+                        </div>
+
+                        <div class="payment-badge-card glass">
+                            <div class="payment-badge-icon-box">
+                                <svg width="34" height="34" viewBox="0 0 24 24" fill="#25d366"><path d="M12.031 0C5.405 0 .027 5.378.027 12.004c0 2.116.55 4.182 1.597 6.002L.004 24l6.168-1.618a11.96 11.96 0 0 0 5.859 1.528h.005c6.626 0 12.004-5.378 12.004-12.004C24.04 5.378 18.657 0 12.031 0zm-.005 21.94a9.92 9.92 0 0 1-5.06-1.39l-.363-.215-3.762.987 1.004-3.668-.236-.376a9.93 9.93 0 0 1-1.523-5.274c0-5.485 4.464-9.948 9.95-9.948 2.658 0 5.157 1.036 7.034 2.915a9.89 9.89 0 0 1 2.91 7.034c0 5.486-4.463 9.95-9.95 9.95z"/></svg>
+                            </div>
+                            <div class="payment-badge-name">WhatsApp Invoice</div>
+                            <div class="payment-badge-sub">Direct custom invoice link</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Interactive Estimator Form -->
+                <div class="estimator-card glass reveal">
+                    <h3>PROJECT COST ESTIMATOR</h3>
+                    
+                    <div class="estimator-form-group">
+                        <label for="estimator-service">Select Service Category</label>
+                        <select id="estimator-service" class="estimator-select">
+                            <option value="29.99">CUSTOM MAP MODES ($29.99)</option>
+                            <option value="14.99">COMPLETE IARC SETUP ($14.99)</option>
+                            <option value="19.99">CUSTOM THUMBNAILS ($19.99)</option>
+                            <option value="49.99">YouTube 1,000 Subs ($49.99)</option>
+                            <option value="99.99">YouTube 4,000 Hours ($99.99)</option>
+                            <option value="29.99">YouTube 10,000 Views ($29.99)</option>
+                            <option value="49.99">TikTok 5,000 Followers ($49.99)</option>
+                            <option value="24.99">TikTok 25,000 Likes ($24.99)</option>
+                            <option value="29.99">TikTok 50,000 Views ($29.99)</option>
+                            <option value="149.99">ULTIMATE CROSS-PLATFORM ($149.99)</option>
+                        </select>
+                    </div>
+
+                    <div class="estimator-form-group">
+                        <label for="estimator-qty">Quantity / Multiplier</label>
+                        <input type="number" id="estimator-qty" class="estimator-input" value="1" min="1" max="100">
+                    </div>
+
+                    <div class="estimator-form-group">
+                        <label for="estimator-speed">Delivery Priority</label>
+                        <select id="estimator-speed" class="estimator-select">
+                            <option value="1">Standard Speed (Normal Queue)</option>
+                            <option value="1.2">Express Priority (+20% Surcharge)</option>
+                            <option value="1.4">Super Express Urgent (+40% Surcharge)</option>
+                        </select>
+                    </div>
+
+                    <div class="estimator-total-area">
+                        <span class="estimator-total-label">Estimated Total:</span>
+                        <span class="estimator-price-highlight" id="estimator-price-display">$0.00</span>
+                    </div>
+
+                    <div style="margin-top: 1.5rem;">
+                        <button class="btn btn-primary" onclick="addEstimatedToCart()" style="width: 100%;">Add Estimate to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         PROJECT BOOKING PORTAL
+         ============================================================ -->
+    <section id="contact" class="section section-alt">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-badge">Secure a Slot</span>
+                <h2 class="section-title">PROJECT BOOKING PORTAL</h2>
+                <p class="section-subtitle">Reach out directly to establish project parameters and initiate UEFN development.</p>
+            </div>
+
+            <div class="booking-layout">
+                <!-- Left Column Contact Info -->
+                <div class="contact-info-panel reveal">
+                    <h3 style="font-size: 1.35rem; font-weight: 900; letter-spacing: 0.02em; margin-bottom: 1rem;">DIRECT CONTACT INFO</h3>
+                    <p style="color: var(--text-muted); margin-bottom: 2rem;">Have custom requirements or need direct developer consultation? Connect with us immediately using the information below.</p>
+                    
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon-wrapper">
+                            <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                        </div>
+                        <div>
+                            <div class="contact-info-label">Direct Email Address</div>
+                            <div class="contact-info-val">bhattiabdulrehman430@gmail.com</div>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon-wrapper">
+                            <svg viewBox="0 0 24 24"><path d="M12.031 0C5.405 0 .027 5.378.027 12.004c0 2.116.55 4.182 1.597 6.002L.004 24l6.168-1.618a11.96 11.96 0 0 0 5.859 1.528h.005c6.626 0 12.004-5.378 12.004-12.004C24.04 5.378 18.657 0 12.031 0zm-.005 21.94a9.92 9.92 0 0 1-5.06-1.39l-.363-.215-3.762.987 1.004-3.668-.236-.376a9.93 9.93 0 0 1-1.523-5.274c0-5.485 4.464-9.948 9.95-9.948 2.658 0 5.157 1.036 7.034 2.915a9.89 9.89 0 0 1 2.91 7.034c0 5.486-4.463 9.95-9.95 9.95z"/></svg>
+                        </div>
+                        <div>
+                            <div class="contact-info-label">WhatsApp Live Support</div>
+                            <div class="contact-info-val">+974 70340075</div>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon-wrapper">
+                            <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                        </div>
+                        <div>
+                            <div class="contact-info-label">Studio Headquarters</div>
+                            <div class="contact-info-val">Doha, Qatar</div>
+                        </div>
+                    </div>
+
+                    <a href="https://wa.me/97470340075?text=Hello%20Fury%20Agency!%20I%20want%20to%20discuss%20a%20new%20project." target="_blank" class="btn contact-whatsapp-link">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 0C5.405 0 .027 5.378.027 12.004c0 2.116.55 4.182 1.597 6.002L.004 24l6.168-1.618a11.96 11.96 0 0 0 5.859 1.528h.005c6.626 0 12.004-5.378 12.004-12.004C24.04 5.378 18.657 0 12.031 0zm-.005 21.94a9.92 9.92 0 0 1-5.06-1.39l-.363-.215-3.762.987 1.004-3.668-.236-.376a9.93 9.93 0 0 1-1.523-5.274c0-5.485 4.464-9.948 9.95-9.948 2.658 0 5.157 1.036 7.034 2.915a9.89 9.89 0 0 1 2.91 7.034c0 5.486-4.463 9.95-9.95 9.95z"/></svg>
+                        Chat via WhatsApp Live Support
+                    </a>
+                </div>
+
+                <!-- Right Column Form -->
+                <div class="booking-form-card glass reveal">
+                    <form id="booking-form">
+                        <div class="booking-form-grid">
+                            <div class="form-group">
+                                <label for="booking-name">Full Name</label>
+                                <input type="text" id="booking-name" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="booking-email">Email Address</label>
+                                <input type="email" id="booking-email" placeholder="john@example.com" required>
+                            </div>
+                        </div>
+
+                        <div class="booking-form-grid">
+                            <div class="form-group">
+                                <label for="booking-phone">WhatsApp Number</label>
+                                <input type="tel" id="booking-phone" placeholder="+974 ..." required>
+                            </div>
+                            <div class="form-group">
+                                <label for="booking-service">Service Requested</label>
+                                <select id="booking-service" required>
+                                    <option value="Custom Map Modes">Custom Map Modes ($29.99)</option>
+                                    <option value="Complete IARC Setup">Complete IARC Setup ($14.99)</option>
+                                    <option value="Custom Thumbnails">Custom Thumbnails ($19.99)</option>
+                                    <option value="YouTube Suite">YouTube Growth Suite</option>
+                                    <option value="TikTok Suite">TikTok Growth Suite</option>
+                                    <option value="Ultimate Cross-Platform">Ultimate Cross-Platform ($149.99)</option>
+                                    <option value="Custom Project">Custom Island Build</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="booking-details">Project Details &amp; Specifications</label>
+                            <textarea id="booking-details" rows="4" placeholder="Describe your map mechanics, island theme, delivery deadlines, or target social milestones..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="width: 100%; padding: 1rem;">Transmit Project Inquiry</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         FOOTER
+         ============================================================ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div style="display: flex; align-items: center; gap: 0.75rem;">
+                        <div class="brand-emblem">F</div>
+                        <span class="logo-text">FURY<span>AGENCY</span></span>
+                    </div>
+                    <p>Engineering premium Fortnite islands and rapid creator brand expansion across global networks.</p>
+                    <div class="footer-social-strip">
+                        <a href="https://www.youtube.com/@FURY7.x" target="_blank" class="footer-social-btn" title="YouTube">
+                            <svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                        </a>
+                        <a href="https://www.tiktok.com/@clipfarmify" target="_blank" class="footer-social-btn" title="TikTok">
+                            <svg viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.67 4.28 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.97V16.3c0 1.63-.52 3.22-1.5 4.52-1.42 1.89-3.66 3.04-6.07 3.16-1.92.1-3.83-.55-5.32-1.78C.34 20.89-.36 19.06-.17 17.15c.19-1.9 1.25-3.61 2.87-4.64 1.63-1.03 3.63-1.33 5.48-.82v4.22c-.67-.28-1.43-.31-2.12-.1-.7.22-1.28.72-1.6 1.38-.33.67-.32 1.45.02 2.11.34.66.95 1.13 1.68 1.28.73.15 1.5-.04 2.09-.5.58-.46.92-1.16.92-1.9V.02z"/></svg>
+                        </a>
+                        <a href="https://wa.me/97470340075" target="_blank" class="footer-social-btn" title="WhatsApp">
+                            <svg viewBox="0 0 24 24"><path d="M12.031 0C5.405 0 .027 5.378.027 12.004c0 2.116.55 4.182 1.597 6.002L.004 24l6.168-1.618a11.96 11.96 0 0 0 5.859 1.528h.005c6.626 0 12.004-5.378 12.004-12.004C24.04 5.378 18.657 0 12.031 0zm-.005 21.94a9.92 9.92 0 0 1-5.06-1.39l-.363-.215-3.762.987 1.004-3.668-.236-.376a9.93 9.93 0 0 1-1.523-5.274c0-5.485 4.464-9.948 9.95-9.948 2.658 0 5.157 1.036 7.034 2.915a9.89 9.89 0 0 1 2.91 7.034c0 5.486-4.463 9.95-9.95 9.95z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-info">
+                    <p style="font-weight: 700; color: #fff; margin-bottom: 0.8rem; text-transform: uppercase; font-size: 0.8rem; letter-spacing: 0.08em;">Direct Channels</p>
+                    <p>Business Contact: <a href="mailto:bhattiabdulrehman430@gmail.com">bhattiabdulrehman430@gmail.com</a></p>
+                    <p>Live Chat Support: +974 70340075</p>
+                    <p>Doha, Qatar</p>
+                </div>
+                <div class="footer-info">
+                    <p style="font-weight: 700; color: #fff; margin-bottom: 0.8rem; text-transform: uppercase; font-size: 0.8rem; letter-spacing: 0.08em;">Quick Links</p>
+                    <p><a href="#services" style="color: var(--text-secondary);">UEFN Services</a></p>
+                    <p><a href="#growth" style="color: var(--text-secondary);">Creator Growth Suite</a></p>
+                    <p><a href="#estimator" style="color: var(--text-secondary);">Price Estimator</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 FURY AGENCY. All rights reserved.</p>
+                <p>Fortnite and Unreal Engine are registered trademarks of Epic Games, Inc.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ============================================================
+         CORE APPLICATION JAVASCRIPT
+         ============================================================ -->
+    <script>
+    (function() {
+        'use strict';
+
+        /* --- Product Catalog --- */
+        var PRODUCTS = {
+            'custom-map-modes':    { name: 'Custom Map Modes',            price: 29.99 },
+            'complete-iarc-setup': { name: 'Complete IARC Setup',         price: 14.99 },
+            'custom-thumbnails':   { name: 'Custom Thumbnails',           price: 19.99 },
+            'yt-subs':            { name: 'YouTube 1,000 Organic Subs',  price: 49.99 },
+            'yt-hours':           { name: 'YouTube 4,000 Watch Hours',   price: 99.99 },
+            'yt-views':           { name: 'YouTube 10,000 Views',        price: 29.99 },
+            'tk-followers':       { name: 'TikTok 5,000 Followers',      price: 49.99 },
+            'tk-likes':           { name: 'TikTok 25,000 Likes',         price: 24.99 },
+            'tk-views':           { name: 'TikTok 50,000 Views',         price: 29.99 },
+            'cross-platform':     { name: 'Ultimate Cross-Platform Suite', price: 149.99 }
+        };
+
+        var cart = [];
+
+        /* --- DOM references --- */
+        var cartDrawer      = document.getElementById('cart-drawer');
+        var cartOverlay     = document.getElementById('cart-overlay');
+        var cartItemsEl     = document.getElementById('cart-items');
+        var cartTotalEl     = document.getElementById('cart-total');
+        var cartCountBadge  = document.getElementById('cart-count-badge');
+        var toastEl         = document.getElementById('toast');
+        var mobileDrawer    = document.getElementById('mobile-drawer');
+        var navToggle       = document.getElementById('nav-toggle');
+
+        /* ============================================================
+           CART LOGIC
+           ============================================================ */
+        window.toggleCart = function() {
+            var isOpen = cartDrawer.classList.contains('open');
+            if (isOpen) {
+                cartDrawer.classList.remove('open');
+                cartOverlay.classList.remove('open');
+                document.body.style.overflow = '';
+            } else {
+                cartDrawer.classList.add('open');
+                cartOverlay.classList.add('open');
+                document.body.style.overflow = 'hidden';
+            }
+        };
+
+        window.addToCart = function(serviceId) {
+            var product = PRODUCTS[serviceId];
+            if (!product) return;
+            cart.push({ id: serviceId, name: product.name, price: product.price });
+            renderCart();
+            showToast(product.name + ' added to cart!');
+        };
+
+        window.handlePayNow = function(serviceId) {
+            var product = PRODUCTS[serviceId];
+            if (!product) return;
+            cart.push({ id: serviceId, name: product.name, price: product.price });
+            renderCart();
+            window.toggleCart();
+        };
+
+        function renderCart() {
+            if (cart.length === 0) {
+                cartItemsEl.innerHTML = '<div class="cart-empty-msg">Your cart is empty.</div>';
+                cartTotalEl.textContent = '$0.00';
+                cartCountBadge.style.display = 'none';
+                return;
+            }
+
+            var html = '';
+            var total = 0;
+            for (var i = 0; i < cart.length; i++) {
+                var item = cart[i];
+                total += item.price;
+                html += '<div class="cart-item">' +
+                    '<div class="cart-item-info">' +
+                        '<div class="cart-item-name">' + escapeHtml(item.name) + '</div>' +
+                        '<div class="cart-item-price">$' + item.price.toFixed(2) + '</div>' +
+                    '</div>' +
+                    '<button class="cart-item-remove" onclick="removeFromCart(' + i + ')">Remove</button>' +
+                '</div>';
+            }
+            cartItemsEl.innerHTML = html;
+            cartTotalEl.textContent = '$' + total.toFixed(2);
+            cartCountBadge.textContent = cart.length;
+            cartCountBadge.style.display = 'inline-block';
+        }
+
+        window.removeFromCart = function(index) {
+            cart.splice(index, 1);
+            renderCart();
+        };
+
+        /* --- Checkout handlers --- */
+        window.payWithPayPal = function() {
+            if (cart.length === 0) { showToast('Your cart is empty!', true); return; }
+            var total = cart.reduce(function(s, i) { return s + i.price; }, 0);
+            var name  = document.getElementById('checkout-name').value.trim();
+            var email = document.getElementById('checkout-email').value.trim();
+            if (!name || !email) { showToast('Please fill in your name and email.', true); return; }
+            var itemNames = cart.map(function(i) { return i.name; }).join(', ');
+            var paypalUrl = 'https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=bhattiabdulrehman430%40gmail.com' +
+                '&item_name=' + encodeURIComponent('Fury Agency Order [' + name + ']: ' + itemNames) +
+                '&amount=' + total.toFixed(2) +
+                '&currency_code=USD' +
+                '&email=' + encodeURIComponent(email);
+            showToast('Redirecting to PayPal checkout for $' + total.toFixed(2) + '...');
+            window.location.href = paypalUrl;
+        };
+
+        window.payWithPayoneer = function() {
+            if (cart.length === 0) { showToast('Your cart is empty!', true); return; }
+            var total = cart.reduce(function(s, i) { return s + i.price; }, 0);
+            var name  = document.getElementById('checkout-name').value.trim();
+            var email = document.getElementById('checkout-email').value.trim();
+            if (!name || !email) { showToast('Please fill in your name and email.', true); return; }
+            var itemNames = cart.map(function(i) { return i.name; }).join(', ');
+            var orderSummary = 'Fury Agency Order%0A%0AItems: ' + encodeURIComponent(itemNames) + '%0ATotal: $' + total.toFixed(2) + '%0ABuyer: ' + encodeURIComponent(name) + '%0ABuyer Email: ' + encodeURIComponent(email) + '%0A%0APlease send the Payoneer payment request to my email above so I can complete payment.';
+            var mailtoUrl = 'mailto:bhattiabdulrehman430%40gmail.com?subject=' +
+                encodeURIComponent('Fury Agency Payment Request — $' + total.toFixed(2)) +
+                '&body=' + orderSummary;
+            showToast('Opening email to request Payoneer payment of $' + total.toFixed(2) + '...');
+            window.location.href = mailtoUrl;
+        };
+
+        window.payViaWhatsApp = function() {
+            if (cart.length === 0) { showToast('Your cart is empty!', true); return; }
+            var total = cart.reduce(function(s, i) { return s + i.price; }, 0);
+            var name  = document.getElementById('checkout-name').value.trim();
+            var email = document.getElementById('checkout-email').value.trim();
+            var phone = document.getElementById('checkout-phone').value.trim();
+
+            var itemLines = cart.map(function(i) { return '  - ' + i.name + ': $' + i.price.toFixed(2); }).join('%0A');
+            var msg = 'Hello Fury Agency! 🎮%0A' +
+                      'I want to place an order:%0A%0A' +
+                      'Items:%0A' + itemLines + '%0A%0A' +
+                      'Total: $' + total.toFixed(2) + '%0A%0A' +
+                      'Name: ' + encodeURIComponent(name || 'N/A') + '%0A' +
+                      'Email: ' + encodeURIComponent(email || 'N/A') + '%0A' +
+                      'Phone: ' + encodeURIComponent(phone || 'N/A');
+
+            window.open('https://wa.me/97470340075?text=' + msg, '_blank');
+        };
+
+        /* ============================================================
+           ESTIMATOR
+           ============================================================ */
+        var estimatorService = document.getElementById('estimator-service');
+        var estimatorQty     = document.getElementById('estimator-qty');
+        var estimatorSpeed   = document.getElementById('estimator-speed');
+        var estimatorDisplay = document.getElementById('estimator-price-display');
+
+        function updateEstimator() {
+            var base  = parseFloat(estimatorService.value) || 0;
+            var qty   = parseInt(estimatorQty.value, 10) || 1;
+            var speed = parseFloat(estimatorSpeed.value) || 1;
+            var total = base * qty * speed;
+            estimatorDisplay.textContent = '$' + total.toFixed(2);
+        }
+
+        estimatorService.addEventListener('change', updateEstimator);
+        estimatorQty.addEventListener('input', updateEstimator);
+        estimatorSpeed.addEventListener('change', updateEstimator);
+        updateEstimator();
+
+        window.addEstimatedToCart = function() {
+            var label = estimatorService.options[estimatorService.selectedIndex].text;
+            var base  = parseFloat(estimatorService.value) || 0;
+            var qty   = parseInt(estimatorQty.value, 10) || 1;
+            var speed = parseFloat(estimatorSpeed.value) || 1;
+            var total = base * qty * speed;
+
+            var cleanName = label.replace(/\s*\(\$[\d.]+\)\s*$/, '');
+            if (qty > 1) cleanName += ' x' + qty;
+
+            cart.push({ id: 'estimator-' + Date.now(), name: cleanName, price: total });
+            renderCart();
+            window.toggleCart();
+            showToast(cleanName + ' added to cart!');
+        };
+
+        /* ============================================================
+           BOOKING FORM
+           ============================================================ */
+        var bookingForm = document.getElementById('booking-form');
+        bookingForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            var name    = document.getElementById('booking-name').value.trim();
+            var email   = document.getElementById('booking-email').value.trim();
+            var phone   = document.getElementById('booking-phone').value.trim();
+            var service = document.getElementById('booking-service').value;
+            var details = document.getElementById('booking-details').value.trim();
+
+            if (!name || !email || !phone || !details) {
+                showToast('Please fill in all fields.', true);
+                return;
+            }
+
+            var msg = '🎮 NEW BOOKING REQUEST%0A%0A' +
+                      'Name: ' + encodeURIComponent(name) + '%0A' +
+                      'Email: ' + encodeURIComponent(email) + '%0A' +
+                      'Phone: ' + encodeURIComponent(phone) + '%0A' +
+                      'Service: ' + encodeURIComponent(service) + '%0A%0A' +
+                      'Details:%0A' + encodeURIComponent(details);
+
+            showToast('Booking submitted! Redirecting to WhatsApp...');
+            setTimeout(function() {
+                window.open('https://wa.me/97470340075?text=' + msg, '_blank');
+            }, 600);
+
+            bookingForm.reset();
+        });
+
+        /* ============================================================
+           MOBILE NAV
+           ============================================================ */
+        var mobileOpen = false;
+        navToggle.addEventListener('click', function() {
+            mobileOpen = !mobileOpen;
+            if (mobileOpen) {
+                mobileDrawer.classList.add('open');
+                document.body.style.overflow = 'hidden';
+            } else {
+                mobileDrawer.classList.remove('open');
+                document.body.style.overflow = '';
+            }
+        });
+
+        var drawerLinks = mobileDrawer.querySelectorAll('.drawer-link');
+        for (var i = 0; i < drawerLinks.length; i++) {
+            drawerLinks[i].addEventListener('click', function() {
+                mobileOpen = false;
+                mobileDrawer.classList.remove('open');
+                document.body.style.overflow = '';
+            });
+        }
+
+        /* ============================================================
+           SCROLL REVEAL
+           ============================================================ */
+        var reveals = document.querySelectorAll('.reveal');
+
+        function checkReveal() {
+            var windowHeight = window.innerHeight;
+            for (var i = 0; i < reveals.length; i++) {
+                var el = reveals[i];
+                var rect = el.getBoundingClientRect();
+                if (rect.top < windowHeight - 60) {
+                    el.classList.add('visible');
+                }
+            }
+        }
+
+        window.addEventListener('scroll', checkReveal);
+        window.addEventListener('resize', checkReveal);
+        checkReveal();
+
+        /* ============================================================
+           TOAST NOTIFICATIONS
+           ============================================================ */
+        var toastTimeout;
+        function showToast(message, isError) {
+            clearTimeout(toastTimeout);
+            toastEl.textContent = message;
+            toastEl.className = 'toast' + (isError ? ' toast-error' : '');
+            void toastEl.offsetWidth;
+            toastEl.classList.add('show');
+            toastTimeout = setTimeout(function() {
+                toastEl.classList.remove('show');
+            }, 3000);
+        }
+
+        /* ============================================================
+           UTILITY
+           ============================================================ */
+        function escapeHtml(str) {
+            var div = document.createElement('div');
+            div.appendChild(document.createTextNode(str));
+            return div.innerHTML;
+        }
+
+        /* ============================================================
+           NAVBAR SCROLL EFFECT
+           ============================================================ */
+        var navbar = document.querySelector('.navbar');
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 40) {
+                navbar.style.boxShadow = '0 10px 30px rgba(0,0,0,0.6)';
+                navbar.style.borderBottomColor = 'rgba(124, 58, 237, 0.2)';
+            } else {
+                navbar.style.boxShadow = 'none';
+                navbar.style.borderBottomColor = 'var(--border-color)';
+            }
+        });
+
+    })();
+    </script>
+</body>
+</html>
