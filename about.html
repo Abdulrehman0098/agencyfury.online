@@ -3,25 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About FURY AGENCY - Company Overview & Mission</title>
+    <title>About FURY AGENCY — Company Overview &amp; Mission</title>
     <meta name="description" content="Learn about FURY AGENCY, a Doha-based gaming and creator services agency. Discover our mission, vision, and commitment to empowering digital creators worldwide.">
     <meta name="keywords" content="FURY AGENCY, gaming agency, creator services, Doha Qatar, about us, mission, vision">
     <meta name="author" content="FURY AGENCY">
     <meta name="robots" content="index, follow">
     <meta name="google-adsense-account" content="ca-pub-2525418400328104">
+    <meta name="theme-color" content="#07080d">
+    <link rel="canonical" href="https://agencyfury.online/about.html">
+    <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://agencyfury.online/about.html">
-    <meta property="og:title" content="About FURY AGENCY - Company Overview & Mission">
+    <meta property="og:title" content="About FURY AGENCY — Company Overview &amp; Mission">
     <meta property="og:description" content="Learn about FURY AGENCY, a Doha-based gaming and creator services agency. Discover our mission to empower creators and our vision for the future of digital entertainment.">
     <meta property="og:image" content="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1200&h=630&q=80">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://agencyfury.online/about.html">
-    <meta name="twitter:title" content="About FURY AGENCY - Company Overview & Mission">
-    <meta name="twitter:description" content="Learn about FURY AGENCY, a Doha-based gaming and creator services agency. Discover our mission to empower creators and our vision for the future of digital entertainment.">
+    <meta name="twitter:title" content="About FURY AGENCY — Company Overview &amp; Mission">
+    <meta name="twitter:description" content="Learn about FURY AGENCY, a Doha-based gaming and creator services agency.">
     <meta name="twitter:image" content="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1200&h=630&q=80">
 
     <!-- Structured Data -->
@@ -45,167 +48,13 @@
     }
     </script>
 
+    <!-- Typography -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700;800;900&display=swap" rel="stylesheet">
 
-    <style>
-        :root {
-            --bg-primary: #07080d;
-            --bg-secondary: #0d0f17;
-            --bg-card: rgba(15, 18, 28, 0.75);
-            --bg-glass: rgba(255, 255, 255, 0.03);
-            --border-color: rgba(255, 255, 255, 0.08);
-            --text-primary: #f8fafc;
-            --text-secondary: #94a3b8;
-            --text-muted: #64748b;
-            --text-highlight: #c084fc;
-            --text-cyan: #00e5ff;
-            --accent-primary: #7c3aed;
-            --accent-primary-glow: rgba(124, 58, 237, 0.45);
-            --accent-cyan: #00e5ff;
-            --accent-cyan-glow: rgba(0, 229, 255, 0.3);
-            --gradient-brand: linear-gradient(135deg, #a855f7 0%, #00e5ff 100%);
-            --gradient-button: linear-gradient(135deg, #7c3aed 0%, #4f46e5 100%);
-            --radius-sm: 8px;
-            --radius-md: 14px;
-            --radius-lg: 20px;
-            --shadow-glow: 0 0 35px rgba(124, 58, 237, 0.25);
-            --font-heading: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
-            --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-            --max-width: 1200px;
-        }
-
-        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-
-        html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; background-color: var(--bg-primary); }
-
-        body {
-            font-family: var(--font-body);
-            background: var(--bg-primary);
-            color: var(--text-primary);
-            line-height: 1.6;
-            overflow-x: hidden;
-            min-height: 100vh;
-            position: relative;
-        }
-
-        body::before {
-            content: '';
-            position: fixed;
-            top: 0; left: 25%;
-            width: 650px; height: 650px;
-            background: radial-gradient(circle, rgba(124, 58, 237, 0.12) 0%, transparent 70%);
-            z-index: -1; pointer-events: none; filter: blur(90px);
-        }
-        body::after {
-            content: '';
-            position: fixed;
-            bottom: 5%; right: 15%;
-            width: 550px; height: 550px;
-            background: radial-gradient(circle, rgba(0, 229, 255, 0.08) 0%, transparent 70%);
-            z-index: -1; pointer-events: none; filter: blur(90px);
-        }
-
-        h1, h2, h3, h4 { font-family: var(--font-heading); letter-spacing: -0.02em; color: var(--text-primary); }
-        a { text-decoration: none; color: inherit; transition: color 0.2s ease; }
-        ul, ol { list-style: none; }
-
-        .container { max-width: var(--max-width); margin: 0 auto; padding: 0 1.5rem; }
-
-        .glass {
-            background: var(--bg-card);
-            border: 1px solid var(--border-color);
-            backdrop-filter: blur(16px);
-            -webkit-backdrop-filter: blur(16px);
-        }
-
-        .gradient-text {
-            background: var(--gradient-brand);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        /* --- Navbar --- */
-        .navbar {
-            position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
-            background: rgba(7, 8, 13, 0.82);
-            backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
-            border-bottom: 1px solid var(--border-color);
-            padding: 0.85rem 0;
-        }
-        .nav-container { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-        .nav-logo-area { display: flex; align-items: center; gap: 0.75rem; flex-shrink: 0; }
-        .brand-emblem {
-            width: 34px; height: 34px;
-            background: linear-gradient(135deg, var(--accent-primary), var(--accent-cyan));
-            border-radius: 8px; display: flex; align-items: center; justify-content: center;
-            color: #fff; font-family: var(--font-heading); font-weight: 900; font-size: 1.15rem;
-            box-shadow: 0 0 16px var(--accent-primary-glow);
-        }
-        .logo-text { font-family: var(--font-heading); font-size: 1.3rem; font-weight: 900; letter-spacing: 0.04em; color: #fff; }
-        .logo-text span { color: var(--accent-primary); }
-        .nav-links { display: flex; align-items: center; gap: 2rem; }
-        .nav-link { font-size: 0.88rem; font-weight: 600; color: var(--text-secondary); transition: color 0.2s ease; letter-spacing: 0.02em; }
-        .nav-link:hover { color: #fff; text-shadow: 0 0 10px rgba(255, 255, 255, 0.4); }
-        .nav-toggle { display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: pointer; padding: 4px; }
-        .nav-toggle span { width: 22px; height: 2px; background: #fff; transition: all 0.2s ease; }
-
-        /* --- Section --- */
-        .section { padding: 8rem 0; position: relative; }
-        .section-header { text-align: center; max-width: 740px; margin: 0 auto 3rem; }
-        .section-badge {
-            display: inline-flex; align-items: center; gap: 0.5rem;
-            font-size: 0.75rem; font-weight: 800; letter-spacing: 0.1em;
-            padding: 0.35rem 0.9rem; border-radius: 100px;
-            background: rgba(124, 58, 237, 0.12); color: var(--text-highlight);
-            border: 1px solid rgba(124, 58, 237, 0.3); text-transform: uppercase; margin-bottom: 1rem;
-        }
-        .section-title { font-size: clamp(2rem, 4vw, 2.75rem); font-weight: 900; line-height: 1.15; margin-bottom: 0.85rem; text-transform: uppercase; letter-spacing: -0.01em; }
-        .section-subtitle { font-size: 1.05rem; color: var(--text-secondary); font-weight: 400; }
-
-        /* --- Content --- */
-        .about-content { max-width: 820px; margin: 0 auto; }
-        .about-text { font-size: 1.05rem; color: var(--text-secondary); margin-bottom: 1.5rem; line-height: 1.75; }
-        .about-text strong { color: var(--text-primary); font-weight: 600; }
-
-        .mission-vision { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin: 3rem 0; }
-        .mv-card { border-radius: var(--radius-lg); padding: 2.5rem; transition: all 0.3s ease; }
-        .mv-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-glow); }
-        .mv-title { font-family: var(--font-heading); font-size: 1.5rem; font-weight: 700; margin-bottom: 1rem; color: var(--accent-cyan); }
-        .mv-text { color: var(--text-secondary); line-height: 1.75; }
-
-        .values-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; margin: 2.5rem 0; }
-        .value-card { text-align: center; padding: 2rem 1.5rem; border: 1px solid var(--border-color); border-radius: var(--radius-md); transition: all 0.3s ease; }
-        .value-card:hover { background: var(--bg-glass); transform: translateY(-4px); border-color: rgba(124, 58, 237, 0.3); }
-        .value-icon { font-size: 2.2rem; margin-bottom: 1rem; }
-        .value-title { font-family: var(--font-heading); font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem; }
-        .value-desc { color: var(--text-secondary); font-size: 0.88rem; line-height: 1.6; }
-
-        .stats-bar { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin: 3rem 0; }
-        .stat-card { padding: 1.8rem 1.2rem; border-radius: var(--radius-md); text-align: center; }
-        .stat-num { font-family: var(--font-heading); font-size: clamp(1.8rem, 3.5vw, 2.5rem); font-weight: 900; color: #fff; line-height: 1; margin-bottom: 0.35rem; background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-        .stat-label { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); font-weight: 600; }
-
-        /* --- Footer --- */
-        .footer { padding: 4rem 0 2.5rem; border-top: 1px solid var(--border-color); background: var(--bg-secondary); }
-        .footer-content { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 3rem; margin-bottom: 2.5rem; }
-        .footer-brand p { color: var(--text-muted); font-size: 0.88rem; margin-top: 1rem; max-width: 380px; line-height: 1.6; }
-        .footer-info p { color: var(--text-secondary); font-size: 0.88rem; margin-bottom: 0.6rem; }
-        .footer-info a { color: var(--accent-cyan); }
-        .footer-bottom { border-top: 1px solid var(--border-color); padding-top: 2rem; display: flex; align-items: center; justify-content: space-between; color: var(--text-muted); font-size: 0.8rem; flex-wrap: wrap; gap: 1rem; }
-
-        @media (max-width: 992px) {
-            .mission-vision { grid-template-columns: 1fr; }
-            .footer-content { grid-template-columns: 1fr; gap: 2rem; }
-            .stats-bar { grid-template-columns: 1fr; }
-        }
-        @media (max-width: 600px) {
-            .nav-links { display: none; }
-            .nav-toggle { display: flex; }
-        }
-    </style>
+    <!-- Shared stylesheet -->
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
 
@@ -213,144 +62,234 @@
     <header class="navbar">
         <div class="container nav-container">
             <div class="nav-logo-area">
-                <a href="index.html" style="display: flex; align-items: center; gap: 0.75rem;">
-                    <div class="brand-emblem">F</div>
-                    <span class="logo-text">FURY<span>AGENCY</span></span>
+                <a href="/" aria-label="FURY AGENCY home">
+                    <span class="brand-emblem">F</span>
                 </a>
+                <a href="/" class="logo-text">FURY<span>AGENCY</span></a>
             </div>
-            <nav class="nav-links">
-                <a href="index.html" class="nav-link">Home</a>
-                <a href="about.html" class="nav-link">About</a>
-                <a href="services.html" class="nav-link">Services</a>
-                <a href="contact.html" class="nav-link">Contact</a>
+
+            <nav class="nav-links" aria-label="Primary navigation">
+                <a href="/" class="nav-link">Home</a>
+                <a href="/about.html" class="nav-link active">About</a>
+                <a href="/blog/" class="nav-link">Blog</a>
+                <a href="/contact.html" class="nav-link">Contact</a>
             </nav>
+
+            <a href="/contact.html" class="btn btn-primary nav-cta">Start a Project</a>
+
             <button class="nav-toggle" aria-label="Toggle navigation">
                 <span></span><span></span><span></span>
             </button>
         </div>
     </header>
 
-    <!-- Main Content -->
-    <section class="section">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-badge">About Us</span>
-                <h1 class="section-title">Who We Are</h1>
-                <p class="section-subtitle">Engineering elite gaming experiences and empowering digital creators worldwide from our headquarters in Doha, Qatar.</p>
-            </div>
+    <div class="mobile-overlay" id="mobileOverlay"></div>
+    <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile navigation">
+        <a href="/">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/blog/">Blog</a>
+        <a href="/contact.html">Contact</a>
+        <a href="/privacy-policy.html">Privacy Policy</a>
+        <a href="/terms.html">Terms of Service</a>
+        <a href="/contact.html" class="btn btn-primary" style="margin-top: 1rem; text-align: center;">Start a Project</a>
+    </nav>
 
-            <div class="about-content">
-                <p class="about-text">
-                    <strong>FURY AGENCY</strong> was founded in Doha, Qatar, with a singular purpose: to bridge the gap between talented digital creators and the global opportunities they deserve. What began as a passionate venture by founder Abdul Rehman Bhatti has grown into one of the region's most respected gaming and creator services agencies, serving clients across continents and disciplines.
-                </p>
-                <p class="about-text">
-                    Operating at the intersection of gaming development, content creation strategy, and digital entertainment, FURY AGENCY delivers comprehensive solutions for creators, gaming teams, and brands seeking to establish or expand their presence in the rapidly evolving digital landscape. Our expertise spans Fortnite UEFN island development, custom Verse logic scripting, IARC compliance and age-rating submissions, professional thumbnail design, and premium social media growth across YouTube, TikTok, and Instagram.
-                </p>
-                <p class="about-text">
-                    We understand that the creator economy is not merely about content—it is about building sustainable careers, fostering communities, and delivering experiences that resonate with audiences on a profound level. Every project we undertake is infused with this understanding, ensuring that our clients receive not just a service, but a strategic partnership designed for long-term success.
-                </p>
-
-                <!-- Mission & Vision -->
-                <div class="mission-vision">
-                    <div class="mv-card glass">
-                        <h2 class="mv-title">Our Mission</h2>
-                        <p class="mv-text">
-                            To empower creators and gaming communities by providing world-class services that foster creativity, growth, and sustainable success in the digital age. We are committed to being the trusted bridge that connects talented individuals and teams with global opportunities—through mentorship, education, cutting-edge technical delivery, and an unwavering dedication to excellence. We believe every creator deserves access to the tools, knowledge, and support needed to thrive in an increasingly competitive digital world.
-                        </p>
-                    </div>
-                    <div class="mv-card glass">
-                        <h2 class="mv-title">Our Vision</h2>
-                        <p class="mv-text">
-                            To become the Middle East and North Africa's leading creator agency, revolutionizing how digital content is created, distributed, and monetized. We envision a future where creators have unrestricted access to global markets, where innovation knows no boundaries, and where gaming and digital entertainment serve as universal languages connecting people across cultures, continents, and generations. Our ultimate aspiration is to build a legacy that inspires the next generation of digital pioneers to dream bigger, create boldly, and never settle for mediocrity.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Stats -->
-                <div class="stats-bar">
-                    <div class="stat-card glass">
-                        <div class="stat-num">8+</div>
-                        <div class="stat-label">UEFN Maps Built</div>
-                    </div>
-                    <div class="stat-card glass">
-                        <div class="stat-num">2M+</div>
-                        <div class="stat-label">Total Plays</div>
-                    </div>
-                    <div class="stat-card glass">
-                        <div class="stat-num">24/7</div>
-                        <div class="stat-label">Rapid Delivery</div>
-                    </div>
-                </div>
-
-                <!-- Core Values -->
-                <h2 style="font-size: 1.8rem; text-align: center; margin: 3rem 0 1.5rem; color: var(--accent-cyan);">Our Core Values</h2>
-                <div class="values-grid">
-                    <div class="value-card">
-                        <div class="value-icon">&#127919;</div>
-                        <h3 class="value-title">Excellence</h3>
-                        <p class="value-desc">We pursue perfection in every deliverable, from code quality to client communication, ensuring outstanding results that exceed expectations.</p>
-                    </div>
-                    <div class="value-card">
-                        <div class="value-icon">&#128101;</div>
-                        <h3 class="value-title">Integrity</h3>
-                        <p class="value-desc">We maintain the highest ethical standards in all our business dealings, fostering trust and transparency with every client relationship.</p>
-                    </div>
-                    <div class="value-card">
-                        <div class="value-icon">&#128640;</div>
-                        <h3 class="value-title">Innovation</h3>
-                        <p class="value-desc">We embrace change and continuously evolve our methods to stay ahead of industry trends and deliver cutting-edge solutions.</p>
-                    </div>
-                    <div class="value-card">
-                        <div class="value-icon">&#9889;</div>
-                        <h3 class="value-title">Passion</h3>
-                        <p class="value-desc">We are genuinely passionate about gaming, content creation, and the transformative power of digital entertainment in people's lives.</p>
-                    </div>
-                </div>
-
-                <p class="about-text">
-                    Our commitment to excellence extends far beyond the services we deliver. We invest deeply in understanding each client's unique vision, challenges, and aspirations. Whether you are a solo content creator building your first brand, a competitive gaming team seeking professional management, or an established enterprise looking to penetrate the creator economy, FURY AGENCY brings the expertise, dedication, and creative firepower to help you achieve your goals.
-                </p>
-                <p class="about-text">
-                    Based in the heart of Doha, we operate at a unique crossroads of Eastern and Western cultures, giving our clients an invaluable strategic advantage in reaching diverse global audiences. Join the hundreds of satisfied creators and gaming professionals who have chosen FURY AGENCY as their partner in growth. Your journey toward digital greatness starts here—where passion meets professionalism, and innovation creates impact.
+    <main>
+        <!-- Page header -->
+        <header class="page-header">
+            <div class="container">
+                <span class="section-badge reveal">About Us</span>
+                <h1 class="page-header-title reveal">Who We <span class="gradient-text">Are</span></h1>
+                <p class="page-header-subtitle reveal">
+                    Engineering elite gaming experiences and empowering digital creators worldwide from our headquarters in Doha, Qatar.
                 </p>
             </div>
-        </div>
-    </section>
+        </header>
+
+        <section class="section">
+            <div class="container">
+                <div class="about-content">
+                    <p class="about-text reveal">
+                        <strong>FURY AGENCY</strong> was founded in Doha, Qatar, with a singular purpose: to bridge the gap between talented digital creators and the global opportunities they deserve. What began as a passionate venture has grown into one of the region's most respected gaming and creator services agencies, serving clients across continents and disciplines.
+                    </p>
+                    <p class="about-text reveal">
+                        Operating at the intersection of gaming development, content creation strategy, and digital entertainment, FURY AGENCY delivers comprehensive solutions for creators, gaming teams, and brands seeking to establish or expand their presence in the rapidly evolving digital landscape. Our expertise spans Fortnite UEFN island development, custom Verse logic scripting, IARC compliance and age-rating submissions, professional 3D thumbnail design, and premium social media growth across YouTube, TikTok, and Instagram.
+                    </p>
+                    <p class="about-text reveal">
+                        We understand that the creator economy is not merely about content — it is about building sustainable careers, fostering communities, and delivering experiences that resonate with audiences on a profound level. Every project we undertake is infused with this understanding, ensuring that our clients receive not just a service, but a strategic partnership designed for long-term success.
+                    </p>
+
+                    <!-- Mission & Vision -->
+                    <div class="mission-vision">
+                        <div class="mv-card glass reveal">
+                            <h2 class="mv-title">Our Mission</h2>
+                            <p class="mv-text">
+                                To empower creators and gaming communities by providing world-class services that foster creativity, growth, and sustainable success in the digital age. We are committed to being the trusted bridge that connects talented individuals and teams with global opportunities through mentorship, education, cutting-edge technical delivery, and an unwavering dedication to excellence.
+                            </p>
+                        </div>
+                        <div class="mv-card glass reveal">
+                            <h2 class="mv-title">Our Vision</h2>
+                            <p class="mv-text">
+                                To become the Middle East and North Africa's leading creator agency, revolutionizing how digital content is created, distributed, and monetized. We envision a future where creators have unrestricted access to global markets and where gaming and digital entertainment serve as universal languages connecting people across cultures and generations.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Stats -->
+                    <div class="stats-bar reveal">
+                        <div class="stat-card glass">
+                            <div class="stat-num">8+</div>
+                            <div class="stat-label">UEFN Maps Built</div>
+                        </div>
+                        <div class="stat-card glass">
+                            <div class="stat-num">2M+</div>
+                            <div class="stat-label">Total Plays</div>
+                        </div>
+                        <div class="stat-card glass">
+                            <div class="stat-num">24/7</div>
+                            <div class="stat-label">Rapid Delivery</div>
+                        </div>
+                    </div>
+
+                    <!-- Core Values -->
+                    <div class="section-header reveal" style="margin-top: 3rem;">
+                        <span class="section-badge">What Drives Us</span>
+                        <h2 class="section-title">Our Core Values</h2>
+                    </div>
+                    <div class="values-grid">
+                        <div class="value-card reveal">
+                            <div class="value-icon">🎯</div>
+                            <h3 class="value-title">Excellence</h3>
+                            <p class="value-desc">We pursue perfection in every deliverable, from code quality to client communication, ensuring outstanding results that exceed expectations.</p>
+                        </div>
+                        <div class="value-card reveal">
+                            <div class="value-icon">🤝</div>
+                            <h3 class="value-title">Integrity</h3>
+                            <p class="value-desc">We maintain the highest ethical standards in all our business dealings, fostering trust and transparency with every client relationship.</p>
+                        </div>
+                        <div class="value-card reveal">
+                            <div class="value-icon">🚀</div>
+                            <h3 class="value-title">Innovation</h3>
+                            <p class="value-desc">We embrace change and continuously evolve our methods to stay ahead of industry trends and deliver cutting-edge solutions.</p>
+                        </div>
+                        <div class="value-card reveal">
+                            <div class="value-icon">⚡</div>
+                            <h3 class="value-title">Passion</h3>
+                            <p class="value-desc">We are genuinely passionate about gaming, content creation, and the transformative power of digital entertainment in people's lives.</p>
+                        </div>
+                    </div>
+
+                    <!-- Team -->
+                    <div class="section-header reveal">
+                        <span class="section-badge">The People</span>
+                        <h2 class="section-title">Meet The Team</h2>
+                    </div>
+                    <div class="team-grid">
+                        <div class="team-card glass reveal">
+                            <div class="team-avatar">AB</div>
+                            <h3 class="team-name">Abdul Rehman Bhatti</h3>
+                            <div class="team-role">Founder &amp; Lead Developer</div>
+                            <p class="team-bio">Visionary founder driving FURY AGENCY's UEFN engineering, Verse architecture, and strategic creator expansion programs from Doha, Qatar.</p>
+                        </div>
+                        <div class="team-card glass reveal">
+                            <div class="team-avatar">UE</div>
+                            <h3 class="team-name">UEFN Engineering</h3>
+                            <div class="team-role">Island Development</div>
+                            <p class="team-bio">Specialists in high-performance island design, Tycoon economy systems, and optimization that keeps 60fps gameplay across all devices.</p>
+                        </div>
+                        <div class="team-card glass reveal">
+                            <div class="team-avatar">CG</div>
+                            <h3 class="team-name">Growth &amp; Design</h3>
+                            <div class="team-role">Creator Expansion</div>
+                            <p class="team-bio">Masters of 3D thumbnail rendering, organic social growth, and cross-platform strategy that amplifies creators to viral scale.</p>
+                        </div>
+                    </div>
+
+                    <p class="about-text reveal">
+                        Our commitment to excellence extends far beyond the services we deliver. We invest deeply in understanding each client's unique vision, challenges, and aspirations. Whether you are a solo content creator building your first brand, a competitive gaming team seeking professional representation, or an established enterprise looking to enter the creator economy, FURY AGENCY brings the expertise, dedication, and creative firepower to help you achieve your goals.
+                    </p>
+                    <p class="about-text reveal">
+                        Based in the heart of Doha, we operate at a unique crossroads of Eastern and Western cultures, giving our clients an invaluable strategic advantage in reaching diverse global audiences. Your journey toward digital greatness starts here — where passion meets professionalism, and innovation creates impact.
+                    </p>
+
+                    <div style="text-align: center; margin-top: 2.5rem;" class="reveal">
+                        <a href="/contact.html" class="btn btn-primary btn-lg">Work With Us</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="section" style="padding-top: 0;">
+            <div class="container">
+                <div class="cta-band reveal">
+                    <h2 class="cta-band-title">Want To Know More?</h2>
+                    <p class="cta-band-text">Read our expert guides on UEFN development, Verse scripting, and creator growth — or get in touch for a free consultation.</p>
+                    <div class="cta-band-actions">
+                        <a href="/blog/" class="btn btn-primary btn-lg">Read The Blog</a>
+                        <a href="/contact.html" class="btn btn-secondary btn-lg">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-section footer-brand">
+                <div class="footer-brand">
                     <div style="display: flex; align-items: center; gap: 0.75rem;">
-                        <div class="brand-emblem">F</div>
+                        <span class="brand-emblem">F</span>
                         <span class="logo-text">FURY<span>AGENCY</span></span>
                     </div>
-                    <p>Elite Fortnite UEFN Development &amp; Creator Growth Studio based in Doha, Qatar. Engineering high-performance gaming experiences and viral social expansion.</p>
+                    <p>Elite Fortnite UEFN Development &amp; Creator Growth Studio based in Doha, Qatar.</p>
+                    <div class="footer-social">
+                        <a href="https://www.youtube.com/@FURY7.x" target="_blank" rel="noopener" class="social-link" title="YouTube" aria-label="YouTube">▶</a>
+                        <a href="https://www.tiktok.com/@clipfarmify" target="_blank" rel="noopener" class="social-link" title="TikTok" aria-label="TikTok">♪</a>
+                        <a href="https://wa.me/97470340075" target="_blank" rel="noopener" class="social-link" title="WhatsApp" aria-label="WhatsApp">💬</a>
+                    </div>
                 </div>
+
                 <div class="footer-section">
-                    <h3 style="font-family: var(--font-heading); margin-bottom: 1rem; color: var(--accent-cyan); font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.08em;">Quick Links</h3>
-                    <ul style="display: flex; flex-direction: column; gap: 0.6rem;">
-                        <li><a href="index.html" style="color: var(--text-secondary); font-size: 0.88rem;">Home</a></li>
-                        <li><a href="about.html" style="color: var(--text-secondary); font-size: 0.88rem;">About</a></li>
-                        <li><a href="services.html" style="color: var(--text-secondary); font-size: 0.88rem;">Services</a></li>
-                        <li><a href="contact.html" style="color: var(--text-secondary); font-size: 0.88rem;">Contact</a></li>
-                        <li><a href="privacy.html" style="color: var(--text-secondary); font-size: 0.88rem;">Privacy Policy</a></li>
-                        <li><a href="terms.html" style="color: var(--text-secondary); font-size: 0.88rem;">Terms of Service</a></li>
-                    </ul>
+                    <h4>Quick Links</h4>
+                    <nav class="footer-links" aria-label="Footer navigation">
+                        <a href="/">Home</a>
+                        <a href="/about.html">About</a>
+                        <a href="/blog/">Blog</a>
+                        <a href="/contact.html">Contact</a>
+                    </nav>
                 </div>
+
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <nav class="footer-links" aria-label="Legal links">
+                        <a href="/privacy-policy.html">Privacy Policy</a>
+                        <a href="/terms.html">Terms of Service</a>
+                        <a href="/sitemap.xml">Sitemap</a>
+                    </nav>
+                </div>
+
                 <div class="footer-section footer-info">
-                    <h3 style="font-family: var(--font-heading); margin-bottom: 1rem; color: var(--accent-cyan); font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.08em;">Contact</h3>
+                    <h4>Contact</h4>
                     <p>Doha, Qatar</p>
                     <p><a href="mailto:bhattiabdulrehman430@gmail.com">bhattiabdulrehman430@gmail.com</a></p>
-                    <p><a href="https://wa.me/97470340075">WhatsApp: +974 70340075</a></p>
+                    <p><a href="tel:+97470340075">+974 70340075</a></p>
+                    <p><a href="https://wa.me/97470340075" target="_blank" rel="noopener">WhatsApp Live Support</a></p>
                 </div>
             </div>
+
             <div class="footer-bottom">
-                <span>&copy; 2025 FURY AGENCY. All rights reserved.</span>
-                <span>Designed with precision in Doha.</span>
+                <span>© <span class="footer-year">2026</span> FURY AGENCY. All rights reserved.</span>
+                <div class="footer-bottom-links">
+                    <a href="/privacy-policy.html">Privacy</a>
+                    <a href="/terms.html">Terms</a>
+                    <a href="/blog/">Blog</a>
+                </div>
             </div>
         </div>
     </footer>
+
+    <script src="/assets/js/main.js"></script>
 </body>
 </html>

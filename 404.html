@@ -3,305 +3,159 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page Not Found - 404 | FURY AGENCY</title>
-    <meta name="description" content="The page you are looking for does not exist. Return to FURY AGENCY's homepage to explore our Fortnite UEFN development and creator services.">
-    <meta name="keywords" content="404, page not found, FURY AGENCY, Fortnite UEFN, creator services">
+    <title>Page Not Found — 404 | FURY AGENCY</title>
+    <meta name="description" content="The page you are looking for could not be found. Return to the FURY AGENCY homepage or explore our site.">
+    <meta name="robots" content="noindex, follow">
     <meta name="author" content="FURY AGENCY">
-    <meta name="robots" content="noindex, nofollow">
     <meta name="google-adsense-account" content="ca-pub-2525418400328104">
+    <meta name="theme-color" content="#07080d">
+    <link rel="canonical" href="https://agencyfury.online/404.html">
+    <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://agencyfury.online/404.html">
-    <meta property="og:title" content="404 - Page Not Found | FURY AGENCY">
-    <meta property="og:description" content="The page you are looking for does not exist. Return to FURY AGENCY's homepage to explore our Fortnite UEFN development and creator services.">
-    <meta property="og:image" content="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1200&h=630&q=80">
-
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://agencyfury.online/404.html">
-    <meta name="twitter:title" content="404 - Page Not Found | FURY AGENCY">
-    <meta name="twitter:description" content="The page you are looking for does not exist. Return to FURY AGENCY's homepage to explore our Fortnite UEFN development and creator services.">
-    <meta name="twitter:image" content="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1200&h=630&q=80">
-
-    <!-- Redirect to Home -->
-    <meta http-equiv="refresh" content="3;url=index.html">
-
-    <!-- Structured Data -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "ErrorPage",
-      "name": "404 - Page Not Found",
-      "publisher": { "@type": "Organization", "name": "FURY AGENCY", "url": "https://agencyfury.online/" }
-    }
-    </script>
-
+    <!-- Typography -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700;800;900&display=swap" rel="stylesheet">
 
-    <style>
-        :root {
-            --bg-primary: #07080d;
-            --bg-secondary: #0d0f17;
-            --bg-card: rgba(15, 18, 28, 0.75);
-            --bg-glass: rgba(255, 255, 255, 0.03);
-            --border-color: rgba(255, 255, 255, 0.08);
-            --text-primary: #f8fafc;
-            --text-secondary: #94a3b8;
-            --text-muted: #64748b;
-            --text-highlight: #c084fc;
-            --text-cyan: #00e5ff;
-            --accent-primary: #7c3aed;
-            --accent-primary-glow: rgba(124, 58, 237, 0.45);
-            --accent-cyan: #00e5ff;
-            --accent-cyan-glow: rgba(0, 229, 255, 0.3);
-            --gradient-brand: linear-gradient(135deg, #a855f7 0%, #00e5ff 100%);
-            --gradient-button: linear-gradient(135deg, #7c3aed 0%, #4f46e5 100%);
-            --radius-sm: 8px;
-            --radius-md: 14px;
-            --radius-lg: 20px;
-            --font-heading: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
-            --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-            --max-width: 1200px;
-        }
-        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-        html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; background-color: var(--bg-primary); }
-        body {
-            font-family: var(--font-body);
-            background: var(--bg-primary);
-            color: var(--text-primary);
-            line-height: 1.6;
-            overflow-x: hidden;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            position: relative;
-        }
-        body::before { content: ''; position: fixed; top: 0; left: 25%; width: 650px; height: 650px; background: radial-gradient(circle, rgba(124, 58, 237, 0.12) 0%, transparent 70%); z-index: -1; pointer-events: none; filter: blur(90px); }
-        body::after { content: ''; position: fixed; bottom: 5%; right: 15%; width: 550px; height: 550px; background: radial-gradient(circle, rgba(0, 229, 255, 0.08) 0%, transparent 70%); z-index: -1; pointer-events: none; filter: blur(90px); }
-        h1, h2, h3 { font-family: var(--font-heading); letter-spacing: -0.02em; }
-        a { text-decoration: none; color: inherit; }
-
-        .error-404 {
-            max-width: 700px;
-            padding: 2rem;
-            animation: fadeInUp 0.8s ease forwards;
-        }
-
-        .error-code {
-            font-family: var(--font-heading);
-            font-size: clamp(8rem, 20vw, 15rem);
-            font-weight: 900;
-            background: var(--gradient-brand);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            line-height: 1;
-            margin-bottom: 1rem;
-        }
-
-        .error-title {
-            font-size: clamp(1.5rem, 4vw, 2.5rem);
-            font-weight: 800;
-            margin-bottom: 1rem;
-            color: var(--text-primary);
-        }
-
-        .error-message {
-            font-size: 1.1rem;
-            color: var(--text-secondary);
-            margin-bottom: 2.5rem;
-            line-height: 1.8;
-        }
-
-        .error-actions {
-            display: flex;
-            gap: 1rem;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-
-        .btn {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            gap: 0.55rem;
-            padding: 0.85rem 2rem;
-            border-radius: var(--radius-sm);
-            font-family: var(--font-heading);
-            font-weight: 700;
-            font-size: 0.9rem;
-            letter-spacing: 0.02em;
-            border: 1px solid transparent;
-            cursor: pointer;
-            transition: all 0.2s ease;
-            text-transform: uppercase;
-            text-decoration: none;
-        }
-
-        .btn-primary {
-            background: var(--gradient-button);
-            color: #fff;
-            box-shadow: 0 4px 20px var(--accent-primary-glow);
-            border-color: rgba(255, 255, 255, 0.15);
-        }
-        .btn-primary:hover {
-            background: var(--gradient-button-hover);
-            transform: translateY(-2px);
-            box-shadow: 0 6px 28px rgba(124, 58, 237, 0.6);
-        }
-
-        .btn-secondary {
-            background: rgba(255, 255, 255, 0.03);
-            color: var(--text-primary);
-            border: 1px solid rgba(255, 255, 255, 0.12);
-            backdrop-filter: blur(10px);
-        }
-        .btn-secondary:hover {
-            border-color: var(--accent-cyan);
-            background: rgba(0, 229, 255, 0.08);
-            color: #fff;
-            transform: translateY(-2px);
-            box-shadow: 0 0 20px var(--accent-cyan-glow);
-        }
-
-        .brand-emblem-sm {
-            width: 40px; height: 40px;
-            background: linear-gradient(135deg, var(--accent-primary), var(--accent-cyan));
-            border-radius: 10px;
-            display: inline-flex; align-items: center; justify-content: center;
-            color: #fff; font-family: var(--font-heading); font-weight: 900; font-size: 1.3rem;
-            box-shadow: 0 0 16px var(--accent-primary-glow);
-            margin-bottom: 1.5rem;
-        }
-
-        .suggestions {
-            margin-top: 3rem;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-            gap: 1rem;
-            max-width: 600px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .suggestion-card {
-            padding: 1.25rem;
-            border: 1px solid var(--border-color);
-            border-radius: var(--radius-md);
-            transition: all 0.3s ease;
-        }
-        .suggestion-card:hover {
-            border-color: rgba(124, 58, 237, 0.3);
-            background: var(--bg-glass);
-            transform: translateY(-3px);
-        }
-        .suggestion-card a {
-            color: var(--text-primary);
-            font-family: var(--font-heading);
-            font-weight: 600;
-            font-size: 0.95rem;
-            display: block;
-            transition: color 0.2s ease;
-        }
-        .suggestion-card a:hover { color: var(--accent-cyan); }
-        .suggestion-card p {
-            color: var(--text-muted);
-            font-size: 0.78rem;
-            margin-top: 0.35rem;
-        }
-
-        .countdown {
-            margin-top: 2rem;
-            color: var(--text-muted);
-            font-size: 0.9rem;
-        }
-        .countdown span {
-            color: var(--accent-cyan);
-            font-weight: 700;
-        }
-
-        @keyframes fadeInUp {
-            from { opacity: 0; transform: translateY(30px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        .navbar { display: none; }
-
-        @media (max-width: 600px) {
-            .error-actions { flex-direction: column; }
-            .suggestions { grid-template-columns: 1fr; }
-        }
-    </style>
+    <!-- Shared stylesheet -->
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
 
-    <div class="error-404">
-        <div class="brand-emblem-sm">F</div>
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <div class="nav-logo-area">
+                <a href="/" aria-label="FURY AGENCY home">
+                    <span class="brand-emblem">F</span>
+                </a>
+                <a href="/" class="logo-text">FURY<span>AGENCY</span></a>
+            </div>
 
-        <div class="error-code">404</div>
+            <nav class="nav-links" aria-label="Primary navigation">
+                <a href="/" class="nav-link">Home</a>
+                <a href="/about.html" class="nav-link">About</a>
+                <a href="/blog/" class="nav-link">Blog</a>
+                <a href="/contact.html" class="nav-link">Contact</a>
+            </nav>
 
-        <h1 class="error-title">Page Not Found</h1>
+            <a href="/contact.html" class="btn btn-primary nav-cta">Start a Project</a>
 
-        <p class="error-message">
-            Oops! The page you're looking for doesn't exist or has been moved. 
-            Don't worry — you'll be redirected to our homepage shortly.
-        </p>
-
-        <div class="error-actions">
-            <a href="index.html" class="btn btn-primary">Go to Homepage</a>
-            <a href="contact.html" class="btn btn-secondary">Contact Support</a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
         </div>
+    </header>
 
-        <div class="countdown">
-            Redirecting in <span id="countdown">3</span> seconds...
+    <div class="mobile-overlay" id="mobileOverlay"></div>
+    <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile navigation">
+        <a href="/">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/blog/">Blog</a>
+        <a href="/contact.html">Contact</a>
+        <a href="/privacy-policy.html">Privacy Policy</a>
+        <a href="/terms.html">Terms of Service</a>
+        <a href="/contact.html" class="btn btn-primary" style="margin-top: 1rem; text-align: center;">Start a Project</a>
+    </nav>
+
+    <main>
+        <section class="error-section">
+            <div class="error-code" aria-hidden="true">404</div>
+            <h1 class="error-title">Page Not Found</h1>
+            <p class="error-text">
+                The page you requested could not be found. It may have been moved, renamed, or never existed. Don't worry — the best Fortnite UEFN content is still one click away.
+            </p>
+
+            <div class="error-actions">
+                <a href="/" class="btn btn-primary">Go to Homepage</a>
+                <a href="/contact.html" class="btn btn-secondary">Contact Support</a>
+            </div>
+
+            <nav class="error-links" aria-label="Popular pages">
+                <a href="/">Home</a>
+                <a href="/about.html">About Us</a>
+                <a href="/blog/">Blog</a>
+                <a href="/privacy-policy.html">Privacy Policy</a>
+                <a href="/terms.html">Terms of Service</a>
+                <a href="/contact.html">Contact</a>
+            </nav>
+
+            <p style="margin-top: 2.5rem; font-size: 0.85rem; color: var(--text-muted);">
+                You will be redirected to the homepage in <strong id="countdown">10</strong> seconds.
+            </p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div style="display: flex; align-items: center; gap: 0.75rem;">
+                        <span class="brand-emblem">F</span>
+                        <span class="logo-text">FURY<span>AGENCY</span></span>
+                    </div>
+                    <p>Elite Fortnite UEFN Development &amp; Creator Growth Studio based in Doha, Qatar.</p>
+                    <div class="footer-social">
+                        <a href="https://www.youtube.com/@FURY7.x" target="_blank" rel="noopener" class="social-link" title="YouTube" aria-label="YouTube">▶</a>
+                        <a href="https://www.tiktok.com/@clipfarmify" target="_blank" rel="noopener" class="social-link" title="TikTok" aria-label="TikTok">♪</a>
+                        <a href="https://wa.me/97470340075" target="_blank" rel="noopener" class="social-link" title="WhatsApp" aria-label="WhatsApp">💬</a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <nav class="footer-links" aria-label="Footer navigation">
+                        <a href="/">Home</a>
+                        <a href="/about.html">About</a>
+                        <a href="/blog/">Blog</a>
+                        <a href="/contact.html">Contact</a>
+                    </nav>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <nav class="footer-links" aria-label="Legal links">
+                        <a href="/privacy-policy.html">Privacy Policy</a>
+                        <a href="/terms.html">Terms of Service</a>
+                        <a href="/sitemap.xml">Sitemap</a>
+                    </nav>
+                </div>
+
+                <div class="footer-section footer-info">
+                    <h4>Contact</h4>
+                    <p>Doha, Qatar</p>
+                    <p><a href="mailto:bhattiabdulrehman430@gmail.com">bhattiabdulrehman430@gmail.com</a></p>
+                    <p><a href="tel:+97470340075">+974 70340075</a></p>
+                    <p><a href="https://wa.me/97470340075" target="_blank" rel="noopener">WhatsApp Live Support</a></p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <span>© <span class="footer-year">2026</span> FURY AGENCY. All rights reserved.</span>
+                <div class="footer-bottom-links">
+                    <a href="/privacy-policy.html">Privacy</a>
+                    <a href="/terms.html">Terms</a>
+                    <a href="/blog/">Blog</a>
+                </div>
+            </div>
         </div>
+    </footer>
 
-        <div class="suggestions">
-            <div class="suggestion-card">
-                <a href="index.html">Home</a>
-                <p>Explore our featured services</p>
-            </div>
-            <div class="suggestion-card">
-                <a href="about.html">About Us</a>
-                <p>Learn about FURY AGENCY</p>
-            </div>
-            <div class="suggestion-card">
-                <a href="services.html">Services</a>
-                <p>View all our offerings</p>
-            </div>
-            <div class="suggestion-card">
-                <a href="contact.html">Contact</a>
-                <p>Get in touch with us</p>
-            </div>
-        </div>
-
-        <script>
-            // Countdown redirect timer
-            let count = 3;
-            const countdownEl = document.getElementById('countdown');
-            const timer = setInterval(() => {
+    <script src="/assets/js/main.js"></script>
+    <script>
+        (function () {
+            var count = 10;
+            var el = document.getElementById('countdown');
+            var timer = setInterval(function () {
                 count--;
-                if (count > 0) {
-                    countdownEl.textContent = count;
-                } else {
+                if (el) el.textContent = count;
+                if (count <= 0) {
                     clearInterval(timer);
-                    window.location.href = 'index.html';
+                    window.location.href = '/';
                 }
             }, 1000);
-        </script>
-    </div>
-
-    <!-- JavaScript redirect as fallback -->
-    <script>
-        // Fallback redirect after 5 seconds
-        setTimeout(function() {
-            window.location.href = 'index.html';
-        }, 5000);
+        })();
     </script>
 </body>
 </html>
