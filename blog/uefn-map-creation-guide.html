@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Beginner's Guide to UEFN Map Creation — FURY AGENCY Blog</title>
+    <meta name="description" content="A practical beginner's guide to Fortnite UEFN map creation: planning your island, greyboxing, device logic, Verse scripting, optimization, IARC rating, and publishing.">
+    <meta name="keywords" content="UEFN map creation, Fortnite UEFN tutorial, UEFN beginner guide, Verse scripting, Fortnite island publishing">
+    <meta name="author" content="FURY AGENCY">
+    <meta name="robots" content="index, follow">
+    <meta name="google-adsense-account" content="ca-pub-2525418400328104">
+    <meta name="theme-color" content="#07080d">
+    <link rel="canonical" href="https://agencyfury.online/blog/uefn-map-creation-guide.html">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#07080d">
+
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://agencyfury.online/blog/uefn-map-creation-guide.html">
+    <meta property="og:title" content="A Beginner's Guide to UEFN Map Creation">
+    <meta property="og:description" content="From an empty project to a published island: planning, greyboxing, devices, Verse, optimization, and IARC compliance.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1200&h=630&q=80">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://agencyfury.online/blog/uefn-map-creation-guide.html">
+    <meta name="twitter:title" content="A Beginner's Guide to UEFN Map Creation">
+    <meta name="twitter:description" content="From an empty project to a published island: planning, greyboxing, devices, Verse, optimization, and IARC compliance.">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1200&h=630&q=80">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "A Beginner's Guide to UEFN Map Creation",
+      "datePublished": "2026-10-29",
+      "dateModified": "2026-10-29",
+      "author": { "@type": "Organization", "name": "FURY AGENCY", "url": "https://agencyfury.online/" },
+      "publisher": { "@type": "Organization", "name": "FURY AGENCY", "url": "https://agencyfury.online/" },
+      "mainEntityOfPage": "https://agencyfury.online/blog/uefn-map-creation-guide.html"
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container nav-container">
+            <div class="nav-logo-area">
+                <a href="/" aria-label="FURY AGENCY home"><span class="brand-emblem">F</span></a>
+                <a href="/" class="logo-text">FURY<span>AGENCY</span></a>
+            </div>
+            <nav class="nav-links" aria-label="Primary navigation">
+                <a href="/" class="nav-link">Home</a>
+                <a href="/about.html" class="nav-link">About</a>
+                <a href="/portfolio.html" class="nav-link">Portfolio</a>
+                <a href="/blog/" class="nav-link active">Blog</a>
+                <a href="/contact.html" class="nav-link">Contact</a>
+            </nav>
+            <a href="/contact.html" class="btn btn-primary nav-cta">Start a Project</a>
+            <button class="nav-toggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+        </div>
+    </header>
+
+    <div class="mobile-overlay" id="mobileOverlay"></div>
+    <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile navigation">
+        <a href="/">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/portfolio.html">Portfolio</a>
+        <a href="/blog/">Blog</a>
+        <a href="/contact.html">Contact</a>
+        <a href="/privacy-policy.html">Privacy Policy</a>
+        <a href="/terms.html">Terms of Service</a>
+        <a href="/contact.html" class="btn btn-primary" style="margin-top: 1rem; text-align: center;">Start a Project</a>
+    </nav>
+
+    <main>
+        <div class="container">
+            <nav class="breadcrumb" aria-label="Breadcrumb">
+                <a href="/">Home</a>
+                <span class="breadcrumb-separator">/</span>
+                <a href="/blog/">Blog</a>
+                <span class="breadcrumb-separator">/</span>
+                <span>UEFN Map Creation Guide</span>
+            </nav>
+        </div>
+
+        <div class="container">
+            <div class="post-layout">
+                <article class="post-content">
+                    <header class="post-header">
+                        <div class="post-category-row">
+                            <span class="article-category cat-uefn">UEFN</span>
+                            <span class="article-reading-time">11 min read</span>
+                        </div>
+                        <h1 class="post-title">A Beginner's Guide to UEFN Map Creation</h1>
+                        <p class="post-excerpt">UEFN gives Fortnite creators the same toolchain professional studios use. This guide walks you from an empty project to a published, compliant island — in the order the work actually happens.</p>
+                        <div class="post-meta">
+                            <span>By FURY AGENCY</span>
+                            <span>•</span>
+                            <span>Oct 29, 2026</span>
+                            <span>•</span>
+                            <a href="/blog/" style="color: var(--text-cyan);">Back to Blog</a>
+                        </div>
+                    </header>
+
+                    <div class="post-toc">
+                        <h4>Table of Contents</h4>
+                        <nav class="post-toc-list">
+                            <a href="#what-is-uefn">What UEFN Actually Is</a>
+                            <a href="#plan">Step 1: Plan One Core Loop</a>
+                            <a href="#scope">Step 2: Scope For Memory</a>
+                            <a href="#greybox">Step 3: Greybox Before Art</a>
+                            <a href="#devices">Step 4: Wire The Loop With Devices</a>
+                            <a href="#verse">Step 5: Add Verse Where It Matters</a>
+                            <a href="#art">Step 6: Art, Lighting, And Audio</a>
+                            <a href="#test">Step 7: Playtest And Optimize</a>
+                            <a href="#publish">Step 8: Rating And Publishing</a>
+                            <a href="#mistakes">Common Beginner Mistakes</a>
+                            <a href="#next">Next Steps</a>
+                        </nav>
+                    </div>
+
+                    <h2 id="what-is-uefn">What UEFN Actually Is</h2>
+                    <p>
+                        Unreal Editor for Fortnite — UEFN — is a full game-development environment built on Unreal Engine and connected to Fortnite. It lets you build custom islands with terrain, props, lighting, audio, devices, and a scripting language called Verse. Unlike Creative 1.0, UEFN is a real editor: you arrange a level, place devices, write code, test in a live session, and publish through Epic Games.
+                    </p>
+                    <p>
+                        The mistake most beginners make is treating UEFN like a level editor. It is closer to a small game production pipeline. The creators who publish good islands are not the ones with the most assets; they are the ones who plan the player experience first and build only what that experience needs.
+                    </p>
+
+                    <h2 id="plan">Step 1: Plan One Core Loop</h2>
+                    <p>
+                        Before you open the editor, write one sentence that describes what the player does repeatedly. "Players loot chests, fight waves, and spend gold on stronger weapons" is a core loop. "A big open world with everything" is not.
+                    </p>
+                    <p>
+                        Pick a genre you can finish: a tycoon, a parkour course, a one-versus-one arena, a wave survival map, or a short horror experience. Then define the session: how long should one round last, what does winning look like, and what makes a player want a second round? A tight ten-minute loop that works is worth more than an ambitious island that never ships.
+                    </p>
+                    <p>
+                        Also decide your audience and platform. Islands that run smoothly on console and mobile reach a much larger share of the Discover feed than PC-only projects. That decision affects your memory budget, prop density, lighting, and device count before you place a single asset.
+                    </p>
+
+                    <h2 id="scope">Step 2: Scope For Memory</h2>
+                    <p>
+                        UEFN projects have a memory budget, and every prop, texture, device, and script contributes to it. Beginners often import a huge asset pack and discover halfway through that the island will not publish. Set a budget early and check it as you build.
+                    </p>
+                    <p>
+                        Use a small modular kit instead of unique meshes for every wall and floor. Reuse materials, keep texture sizes sane, and remove anything the player never sees. If a prop exists only to fill a corner, it still costs memory. The goal is not an empty island; it is an island where every asset earns its place.
+                    </p>
+
+                    <h2 id="greybox">Step 3: Greybox Before Art</h2>
+                    <p>
+                        A greybox is a playable version of the map made from simple blocks, ramps, and placeholder geometry. No textures, no final lighting, no polish. Its job is to answer one question: is the space fun and readable?
+                    </p>
+                    <p>
+                        Build the spawn area, the main route, the objective, and the ending first. Walk through it slowly, then run through it at full speed. Check sightlines, cover, drop heights, and whether a new player can tell where to go without a sign. Most layout problems are obvious in a greybox and expensive to fix after the art pass.
+                    </p>
+                    <p>
+                        Playtest the greybox with at least one other person. You already know the route; a fresh player does not. Watch where they stop, where they turn around, and where they fall. Those moments are your design notes.
+                    </p>
+
+                    <h2 id="devices">Step 4: Wire The Loop With Devices</h2>
+                    <p>
+                        Fortnite devices handle a surprising amount of logic without code: spawn pads, item spawners, capture zones, score managers, timers, barriers, teleporters, and triggers. For a first island, build the entire loop with devices before you write any Verse.
+                    </p>
+                    <p>
+                        Name every device clearly in the outliner and document what it does. A trigger called "Trigger_04" will be meaningless in a week. Connect devices one system at a time and test after each connection, because a broken chain is much harder to debug when five systems changed at once.
+                    </p>
+
+                    <!-- AdSense placeholder -->
+                    <div class="ad-container">
+                        <div class="ad-placeholder ad-box" aria-hidden="true">
+                            <span class="ad-slot-label">AdSense native / display unit — 970 × 250</span>
+                        </div>
+                    </div>
+
+                    <h2 id="verse">Step 5: Add Verse Where It Matters</h2>
+                    <p>
+                        Verse is Epic's typed, event-driven scripting language for UEFN. Use it when devices cannot express the rule you need: persistent save data, custom progression, dynamic economies, complex scoring, team logic, or UI that reacts to game state.
+                    </p>
+                    <p>
+                        Start with one small script. A common first project is a score giver: subscribe to a device event, validate the player, then award points through the score manager. Once that works, add a second behavior. Small, working scripts are easier to reason about than one giant file.
+                    </p>
+                    <pre><code>using { /Fortnite.com/Devices }
+using { /Verse.org/Simulation }
+
+score_device := class(creative_device):
+
+    @editable
+    Trigger : trigger_device = trigger_device{}
+
+    OnBegin&lt;override&gt;() : void =
+        Trigger.TouchedEvent.Subscribe(OnTouched)
+
+    OnTouched(Agent : agent) : void =
+        Print("Trigger touched")</code></pre>
+                    <p>
+                        Keep the code documented and expose tunable values with <code>@editable</code> so a designer can adjust the island without editing source. If you want a deeper walkthrough, read our <a href="/blog/uefn-verse-programming-guide.html">complete guide to UEFN Verse programming</a>.
+                    </p>
+
+                    <h2 id="art">Step 6: Art, Lighting, And Audio</h2>
+                    <p>
+                        Only start the art pass once the greybox plays well. Replace placeholder geometry with your modular kit, then establish a clear visual hierarchy: the objective should be the brightest or most distinctive thing in the scene, and the route should read at a glance.
+                    </p>
+                    <p>
+                        Lighting does more than make the island look good. It guides attention, sets mood, and tells players where danger is. Avoid overloading the scene with dynamic lights, and test the final look on the lowest-spec device you support. Audio is equally functional: footsteps, pickups, and warnings should be audible before they are beautiful.
+                    </p>
+
+                    <h2 id="test">Step 7: Playtest And Optimize</h2>
+                    <p>
+                        Test with real players, not just yourself. Run a full session with the intended player count, then watch for frame drops, missing feedback, unclear objectives, and moments where players stop moving. Fix the biggest problem first and retest.
+                    </p>
+                    <p>
+                        Check your memory budget, device count, and load time. Remove unused assets, merge materials where possible, reduce excessive particle effects, and simplify logic that runs every tick. Performance is a design constraint, not a final cleanup task. If your island stutters on mobile, a large part of the audience will leave before the first minute.
+                    </p>
+
+                    <h2 id="publish">Step 8: Rating And Publishing</h2>
+                    <p>
+                        Publishing in Fortnite requires an IARC age rating and a complete submission package. Fill out the IARC questionnaire honestly and consistently with your content. If your island includes violence, scary themes, user-generated content, or monetization, make sure the answers match what players actually experience.
+                    </p>
+                    <p>
+                        Prepare a strong thumbnail, a clear title, and an accurate description before launch. The thumbnail is the first impression in Discover, and the title is what players search for later. After publishing, watch analytics for the first drop-off point and patch the biggest friction source first. Our <a href="/blog/iarc-rating-fortnite-2026.html">IARC rating guide</a> covers the submission process in detail.
+                    </p>
+
+                    <h2 id="mistakes">Common Beginner Mistakes</h2>
+                    <ul>
+                        <li><strong>Building art before the loop works.</strong> You cannot polish a game that is not fun yet.</li>
+                        <li><strong>Ignoring the memory budget.</strong> A beautiful island that cannot publish is not finished.</li>
+                        <li><strong>Over-scripting.</strong> Devices solve more problems than beginners expect; use Verse for the gaps.</li>
+                        <li><strong>Testing alone.</strong> Fresh players reveal routing and clarity problems you cannot see yourself.</li>
+                        <li><strong>Treating compliance as an afterthought.</strong> A rejected rating can delay launch by days or weeks.</li>
+                    </ul>
+
+                    <h2 id="next">Next Steps</h2>
+                    <p>
+                        Your first island should be small, complete, and published. Finish one loop, hand it to real players, and learn from the analytics before you start the next one. That cycle teaches more than any tutorial.
+                    </p>
+                    <p>
+                        If you would rather have a professional team handle the build, the Verse systems, the IARC submission, and the launch strategy, <a href="/contact.html">start a project with FURY AGENCY</a>. You can also browse our <a href="/portfolio.html">UEFN case studies</a> to see how these steps look in practice.
+                    </p>
+
+                    <div class="ad-container">
+                        <div class="ad-placeholder ad-rect" aria-hidden="true">
+                            <span class="ad-slot-label">AdSense in-article unit — responsive</span>
+                        </div>
+                    </div>
+
+                    <nav class="post-nav" aria-label="Article navigation">
+                        <a href="/blog/" class="post-nav-back">← All Articles</a>
+                        <a href="/blog/uefn-verse-programming-guide.html">Next: UEFN Verse Programming →</a>
+                    </nav>
+                </article>
+
+                <aside class="sidebar">
+                    <div class="sidebar-widget">
+                        <h4>Related Articles</h4>
+                        <div class="sidebar-links">
+                            <a href="/blog/uefn-verse-programming-guide.html">Complete Guide to UEFN Verse Programming</a>
+                            <a href="/blog/uefn-memory-budget-optimization.html">UEFN Memory Budget Optimization</a>
+                            <a href="/blog/iarc-rating-fortnite-2026.html">How to Get IARC Rating for Your Island</a>
+                            <a href="/blog/level-design-psychology.html">Level Design Psychology</a>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-widget sidebar-cta">
+                        <div class="sidebar-cta-title">Need A Pro <span class="gradient-text">UEFN Team?</span></div>
+                        <p class="sidebar-cta-text">FURY AGENCY designs, scripts, optimizes, and publishes Fortnite islands with full IARC compliance.</p>
+                        <a href="/contact.html" class="btn btn-primary btn-block">Start Your Project</a>
+                    </div>
+
+                    <div class="sidebar-widget">
+                        <h4>Categories</h4>
+                        <div class="sidebar-links">
+                            <a href="/blog/">All Articles</a>
+                            <a href="/blog/#articles">UEFN</a>
+                            <a href="/blog/#articles">Verse</a>
+                            <a href="/blog/#articles">Creator Growth</a>
+                            <a href="/blog/#articles">Design</a>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div style="display: flex; align-items: center; gap: 0.75rem;">
+                        <span class="brand-emblem">F</span>
+                        <span class="logo-text">FURY<span>AGENCY</span></span>
+                    </div>
+                    <p>Elite Fortnite UEFN Development &amp; Creator Growth Studio based in Doha, Qatar.</p>
+                    <div class="footer-social">
+                        <a href="https://www.youtube.com/@FURY7.x" target="_blank" rel="noopener" class="social-link" title="YouTube" aria-label="YouTube">▶</a>
+                        <a href="https://www.tiktok.com/@clipfarmify" target="_blank" rel="noopener" class="social-link" title="TikTok" aria-label="TikTok">♪</a>
+                        <a href="https://wa.me/97470340075" target="_blank" rel="noopener" class="social-link" title="WhatsApp" aria-label="WhatsApp">💬</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <nav class="footer-links" aria-label="Footer navigation">
+                        <a href="/">Home</a>
+                        <a href="/about.html">About</a>
+                        <a href="/portfolio.html">Portfolio</a>
+                        <a href="/blog/">Blog</a>
+                        <a href="/contact.html">Contact</a>
+                    </nav>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <nav class="footer-links" aria-label="Legal links">
+                        <a href="/privacy-policy.html">Privacy Policy</a>
+                        <a href="/terms.html">Terms of Service</a>
+                        <a href="/sitemap.xml">Sitemap</a>
+                    </nav>
+                </div>
+                <div class="footer-section footer-info">
+                    <h4>Contact</h4>
+                    <p>Doha, Qatar</p>
+                    <p><a href="mailto:bhattiabdulrehman430@gmail.com">bhattiabdulrehman430@gmail.com</a></p>
+                    <p><a href="tel:+97470340075">+974 70340075</a></p>
+                    <p><a href="https://wa.me/97470340075" target="_blank" rel="noopener">WhatsApp Live Support</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© <span class="footer-year">2026</span> FURY AGENCY. All rights reserved.</span>
+                <div class="footer-bottom-links">
+                    <a href="/privacy-policy.html">Privacy</a>
+                    <a href="/terms.html">Terms</a>
+                    <a href="/blog/">Blog</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>
